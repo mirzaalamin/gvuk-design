@@ -2,20 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: "helvetica";
+}
+
+@layer utilities {
+    .header {}
+
+
+
+    .footer {
+        @apply py-4
+    }
+
+    .body-text {
+        @apply font-openSans text-[16px] text-[#777777] dark:text-white leading-8
+    }
+
+    .primary-gradient {
+        background: linear-gradient(to bottom, #CFCFCF, #F5F5F5);
+    }
+
+    .dark .primary-gradient {
+        background: linear-gradient(to bottom, #1F2A37, #1F2A37);
+    }
+
+    .footer-text {
+        @apply font-openSans text-[13px] text-[#444444] dark:text-white leading-6
+    }
+
+    .container {
+        @apply w-full xl:w-[1180px] m-auto px-5
+    }
+
+    .h1 {
+        @apply font-openSans text-[51px] font-light
+    }
+
+    .h2 {
+        @apply font-openSans text-[27px] leading-6
+    }
+
+    .h4 {
+        @apply font-openSans text-[22px] font-light
+    }
+
+    .h5 {
+        @apply font-openSans text-[18px] font-light
+    }
+
+    .subTitle {
+        @apply font-openSans text-[27px] font-light
+    }
 }
