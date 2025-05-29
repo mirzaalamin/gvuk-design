@@ -22,8 +22,8 @@ export const navItems = [
         subItem: []
     },
     {
-        name: "Contact",
-        url: "/contact",
+        name: "Industrial Marking",
+        url: "/lasers/industrial-marking",
         icon: "",
         subItem: []
     },
@@ -136,7 +136,7 @@ export const laserStars = [
         title: "Laser Marking and Engraving",
         description: "Made in the USA, with exceptional quality and performance,available with extensive training and support.",
         imageUrl: "/assets/images/laser-marking.png",
-        url: ""
+        url: "/lasers/laser-marking-and-engraving-for-jewellers"
     },
     {
         id: "2",
