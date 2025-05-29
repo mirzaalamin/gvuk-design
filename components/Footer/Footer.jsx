@@ -34,6 +34,7 @@ const Footer = () => {
                                     alt={item.name}
                                     height={28}
                                     width={28}
+                                    quality={100}
                                 />
                             </Link>
                         ))}

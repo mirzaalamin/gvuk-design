@@ -40,11 +40,11 @@ export const socialItems = [
         url: "https://www.instagram.com/gvukdesign/",
         icon: "/assets/icons/instagram.png"
     },
-    {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/company/gvuk-design-limited/",
-        icon: "/assets/icons/linkedin.png"
-    },
+    // {
+    //     name: "Linkedin",
+    //     url: "https://www.linkedin.com/company/gvuk-design-limited/",
+    //     icon: "/assets/icons/linkedin.png"
+    // },
     {
         name: "Twitter",
         url: "https://twitter.com/gvukdesign",
