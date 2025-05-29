@@ -24,7 +24,7 @@ export default function Home() {
       <div className="dark:bg-gray-900 dark:text-white">
         <div className="container flex flex-col items-center justify-between gap-10 py-16">
           <h4 className="h4 text-center">GVUK Design gives you the very best in technology from manufacturing to R&D and prototyping. From Laser welders and engravers/cutting to jewellery CAD software, industry leading fume and dust filtration solutions along with professional-grade 3D printers and 3D scanners.</h4>
-          <div>
+          <div className="w-[360px] overflow-hidden lg:w-full">
             <LogoCarousel />
           </div>
           <h4 className="h4 text-center">GVUK Design provide the perfect toolbox solution, backed up by training, service and support. </h4>
