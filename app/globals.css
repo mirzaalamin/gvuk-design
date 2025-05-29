@@ -20,6 +20,18 @@ body {
         @apply font-openSans text-[16px] text-[#777777] dark:text-white leading-8
     }
 
+    .post-description {
+        @apply font-openSans text-[14px] text-[#777777] dark:text-white leading-8
+    }
+
+    .hero-gradient {
+        background: linear-gradient(to bottom, #CFCFCF, #F5F5F5);
+    }
+
+    .dark .hero-gradient {
+        background: linear-gradient(to bottom, #53677f, #111827);
+    }
+
     .primary-gradient {
         background: linear-gradient(to bottom, #CFCFCF, #F5F5F5);
     }
@@ -27,6 +39,7 @@ body {
     .dark .primary-gradient {
         background: linear-gradient(to bottom, #1F2A37, #1F2A37);
     }
+
 
     .footer-text {
         @apply font-openSans text-[13px] text-[#444444] dark:text-white leading-6
@@ -40,12 +53,20 @@ body {
         @apply font-openSans text-[51px] font-light
     }
 
+    .hero-title {
+        @apply font-openSans text-[36px] font-light leading-normal
+    }
+
     .h2 {
         @apply font-openSans text-[27px] leading-6
     }
 
     .h4 {
         @apply font-openSans text-[22px] font-light
+    }
+
+    .h3 {
+        @apply font-openSans text-[24px] font-light
     }
 
     .h5 {

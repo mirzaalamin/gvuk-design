@@ -45,9 +45,9 @@ const NavBar = () => {
                         return (
                             <NavigationMenuItem key={item.name} className='dark:text-white'>
 
-                                <NavigationMenuLink href={item.url} className="uppercase text-[14px]">
+                                <Link href={item.url} className="uppercase text-[14px]">
                                     {item.name}
-                                </NavigationMenuLink>
+                                </Link>
                             </NavigationMenuItem>
                         )
                     }

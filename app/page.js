@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       {/* Section 1 Start */}
-      <div className="bg-primary dark:bg-gray-800">
+      <div className="bg-primary dark:bg-gray-800 pt-[100px]">
         <div className="container grid grid-cols-1 lg:grid-cols-3 py-5 lg:py-0 gap-5 lg:gap-0">
           <HeroCard title="Jewellery" subtitle="Industry" buttonText="Click Here" buttonUrl="#" otherClasses="bg-[url(/assets/images/gvuk_laserstar_industrial_sectors.png)]" />
 

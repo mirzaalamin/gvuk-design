@@ -7,12 +7,12 @@ import { ModeToggle } from './Theme'
 
 const Header = () => {
   return (
-    <header className="dark:bg-gray-800">
+    <header className="bg-white dark:bg-gray-800 fixed w-full top-0 z-10">
       <div className='container flex justify-between m-auto header py-5'>
         <div>
           <Link href="/">
             <Image
-              src="/assets/images/GVUK-Logo.png"
+              src="/assets/images/GVUK-Logo.svg"
               alt='Logo'
               height={40}
               width={90}
