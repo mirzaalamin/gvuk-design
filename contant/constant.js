@@ -183,12 +183,6 @@ export const logos = [
         name: "improbond"
     },
     {
-        id: "5",
-        logoUrl: "/assets/images/LaserStar_logo_Red-1200px.png",
-        url: "",
-        name: "leserstar"
-    },
-    {
         id: "6",
         logoUrl: "/assets/images/MatrixGold-Logo.png",
         url: "",
@@ -205,12 +199,6 @@ export const logos = [
         logoUrl: "/assets/images/Thunk-3D-Logo.png",
         url: "",
         name: "thunk-3d"
-    },
-    {
-        id: "9",
-        logoUrl: "/assets/images/BOFA-logo.png",
-        url: "",
-        name: "bofa"
     },
 
 ]
