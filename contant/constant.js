@@ -156,3 +156,62 @@ export const laserStars = [
     },
 
 ]
+
+export const logos = [
+    {
+        id: "1",
+        logoUrl: "/assets/images/Countersketch-Logo.png",
+        url: "/lasers/laser-marking-and-engraving-for-jewellers",
+        name: "countersketch"
+    },
+    {
+        id: "2",
+        logoUrl: "/assets/images/Desktop-Health-Logo.png",
+        url: "",
+        name: "desktop health"
+    },
+    {
+        id: "3",
+        logoUrl: "/assets/images/Gemvision-Logo-1.png",
+        url: "",
+        name: "gemvision"
+    },
+    {
+        id: "4",
+        logoUrl: "/assets/images/Improbond-Logo.png",
+        url: "",
+        name: "improbond"
+    },
+    {
+        id: "5",
+        logoUrl: "/assets/images/LaserStar_logo_Red-1200px.png",
+        url: "",
+        name: "leserstar"
+    },
+    {
+        id: "6",
+        logoUrl: "/assets/images/MatrixGold-Logo.png",
+        url: "",
+        name: "matrix gold"
+    },
+    {
+        id: "7",
+        logoUrl: "/assets/images/yehuda-logo.png",
+        url: "",
+        name: "yehuda"
+    },
+    {
+        id: "8",
+        logoUrl: "/assets/images/Thunk-3D-Logo.png",
+        url: "",
+        name: "thunk-3d"
+    },
+    {
+        id: "9",
+        logoUrl: "/assets/images/BOFA-logo.png",
+        url: "",
+        name: "bofa"
+    },
+
+]
+
