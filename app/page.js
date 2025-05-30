@@ -37,7 +37,7 @@ export default function Home() {
         <div className="flex flex-col gap-16">
           <TitleVideoSection title="Class Leading Technology" description="Advancements in technology are reshaping the jewellery, medical and industrial sectors in numerous ways. These innovations drive efficiency, reduce costs, and help businesses stay agile in meeting market demands. How do you plan to incorporate these technologies into your operations to enhance your business?" videoUrl="https://www.gvukdesign.co.uk/wp-content/uploads/2021/09/GVUK_2021_v1_960x540.webm" />
 
-          <TitleVideoSection reverse title="Laserstar Technologies" description="LaserStar provides a comprehensive range of industrial laser systems for welding, marking, engraving, laser cleaning, multi-axis motion devices, and software solutions. These systems are designed to work with various materials, component parts, and final assemblies." videoUrl="https://www.youtube.com/embed/66bbiOefdwQ?autoplay=1&mute=1&controls=0&loop=1&playlist=66bbiOefdwQ&modestbranding=1&rel=0" />
+          <TitleVideoSection popup reverse title="Laserstar Technologies" description="LaserStar provides a comprehensive range of industrial laser systems for welding, marking, engraving, laser cleaning, multi-axis motion devices, and software solutions. These systems are designed to work with various materials, component parts, and final assemblies." videoUrl="https://www.youtube.com/embed/66bbiOefdwQ?autoplay=0&mute=1&controls=0&loop=1&playlist=66bbiOefdwQ&modestbranding=1&rel=0" />
         </div>
       </div>
       {/* Section 3 End */}

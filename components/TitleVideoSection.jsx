@@ -1,8 +1,17 @@
 import React from 'react'
 import { Video } from './Video'
 import { cn, isYouTubeUrl } from '@/lib/utils'
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog"
+import Image from 'next/image'
 
-const TitleVideoSection = ({ title, description, videoUrl, reverse }) => {
+const TitleVideoSection = ({ popup, title, description, videoUrl, reverse }) => {
     const isYoutube = isYouTubeUrl(videoUrl)
     return (
         <div className={cn(
@@ -18,17 +27,37 @@ const TitleVideoSection = ({ title, description, videoUrl, reverse }) => {
             </div>
             <div className="flex-1">
                 {isYoutube ? (
-                    <iframe
-                        width="100%"
-                        height="315"
-                        src={videoUrl}
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="autoplay; fullscreen"
-                        allowFullScreen
-                    ></iframe>
-                ) : (
+                    <Dialog>
+                        <DialogTrigger asChild>
+                            <Image
+                                src="/assets/images/thumbnail.png"
+                                height={250}
+                                width={300}
+                                quality={100}
+                                alt='thumbnail'
+                                className='w-full cursor-pointer'
+                                sizes="(max-width: 768px) 100vw, 800px"
 
+                            />
+                        </DialogTrigger>
+                        <DialogContent className="bg-gray-800 border-none p-4 pt-10">
+                            <DialogHeader>
+                                <DialogTitle></DialogTitle>
+                                <iframe
+                                    width="100%"
+                                    height="315"
+                                    src={videoUrl}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="autoplay; fullscreen"
+                                    allowFullScreen
+                                ></iframe>
+                            </DialogHeader>
+
+                        </DialogContent>
+                    </Dialog>
+
+                ) : (
                     <Video videoUrl={videoUrl} />
                 )}
             </div>
