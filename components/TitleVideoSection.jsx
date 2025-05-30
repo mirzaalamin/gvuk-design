@@ -40,7 +40,7 @@ const TitleVideoSection = ({ popup, title, description, videoUrl, reverse }) => 
 
                             />
                         </DialogTrigger>
-                        <DialogContent className="bg-gray-800 border-none p-4 pt-10">
+                        <DialogContent className="bg-white dark:bg-gray-800 border-none p-4 pt-10">
                             <DialogHeader>
                                 <DialogTitle></DialogTitle>
                                 <iframe

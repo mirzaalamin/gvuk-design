@@ -23,16 +23,16 @@ const NavBar = () => {
                     if (item.subItem.length > 0) {
                         return (
                             <NavigationMenuItem key={item.name} className='dark:text-white'>
-                                <NavigationMenuTrigger className="dark:hover:text-black">
-                                    <Link href={item.url} className="uppercase text-[14px]">{item.name}
+                                <NavigationMenuTrigger className=" ">
+                                    <Link href={item.url} className="uppercase font-openSans text-[11px] ">{item.name}
                                     </Link>
                                 </NavigationMenuTrigger>
-                                <NavigationMenuContent className="bg-white dark:bg-dark dark:text-white">
-                                    <ul className="grid gap-3 p-4 md:w-[200px] lg:w-[250px] lg:grid-cols-1 inset-shadow-xs">
+                                <NavigationMenuContent className="bg-white dark:bg-dark dark:text-white !border-t-2 !border-red-700 sub-menu-section">
+                                    <ul className="grid gap-3 p-4 md:w-[200px] lg:w-[250px] lg:grid-cols-1">
                                         {item.subItem.map((subItem) => (
-                                            <li className="uppercase text-[14px]" key={subItem.name}>
+                                            <li className="uppercase font-openSans text-[11px]" key={subItem.name}>
 
-                                                <NavigationMenuLink href={subItem.url} className="uppercase text-[14px]">
+                                                <NavigationMenuLink href={subItem.url} className="uppercase font-openSans text-[11px] ">
                                                     {subItem.name}
                                                 </NavigationMenuLink>
                                             </li>
@@ -45,7 +45,7 @@ const NavBar = () => {
                         return (
                             <NavigationMenuItem key={item.name} className='dark:text-white'>
 
-                                <Link href={item.url} className="uppercase text-[14px]">
+                                <Link href={item.url} className="uppercase font-openSans text-[11px]">
                                     {item.name}
                                 </Link>
                             </NavigationMenuItem>
