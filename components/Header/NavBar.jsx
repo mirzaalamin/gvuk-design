@@ -23,7 +23,7 @@ const NavBar = () => {
                     if (item.subItem.length > 0) {
                         return (
                             <NavigationMenuItem key={item.name} className='dark:text-white'>
-                                <NavigationMenuTrigger className=" ">
+                                <NavigationMenuTrigger className="main-menu-parant">
                                     <Link href={item.url} className="uppercase font-openSans text-[11px] ">{item.name}
                                     </Link>
                                 </NavigationMenuTrigger>
