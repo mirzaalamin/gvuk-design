@@ -27,6 +27,12 @@ export const navItems = [
         icon: "",
         subItem: []
     },
+    {
+        name: "News",
+        url: "/news",
+        icon: "",
+        subItem: []
+    },
 ]
 
 export const socialItems = [
@@ -202,4 +208,71 @@ export const logos = [
     },
 
 ]
+
+export const news = [
+    {
+        id: "1",
+        slag: "slug-1",
+        title: "GVUK to exhibit at The London Jewellery Show 2025",
+        date: "May 28, 2025",
+        categories: "latest-news",
+        excerpt: "Join GVUK at The London Jewellery Show, 31 Aug – 1 Sept 2025, Olympia London. Visit Stand B80 to see the latest in diamond detection, laser technology, and CAD design for jewellers.",
+        content: "GVUK is excited to announce its participation in The London Jewellery Show, taking place 31 August – 1 September 2025 at Olympia London. Visit GVUK at Stand B80 to explore the latest in jewellery technology, including advanced tools for diamond detection, laser welding, engraving, and CAD design. Discover hands-on demonstrations and expert insights across two exciting days of innovation and networking. Event Details: The London Jewellery Show Olympia London 31 August – 1 September 2025 Stand B80 www.thejewelleryshow.co.uk For more information, visit www.gvuk.com or email info@gvuk.com.",
+        thumbnail: "/assets/images/thumbnail-2.png",
+    },
+    {
+        id: "2",
+        slag: "slug-2",
+        title: "GVUK to exhibit at The London Jewellery Show 2025",
+        date: "May 28, 2025",
+        categories: "latest-news",
+        excerpt: "Join GVUK at The London Jewellery Show, 31 Aug – 1 Sept 2025, Olympia London. Visit Stand B80 to see the latest in diamond detection, laser technology, and CAD design for jewellers.",
+        content: "GVUK is excited to announce its participation in The London Jewellery Show, taking place 31 August – 1 September 2025 at Olympia London. Visit GVUK at Stand B80 to explore the latest in jewellery technology, including advanced tools for diamond detection, laser welding, engraving, and CAD design. Discover hands-on demonstrations and expert insights across two exciting days of innovation and networking. Event Details: The London Jewellery Show Olympia London 31 August – 1 September 2025 Stand B80 www.thejewelleryshow.co.uk For more information, visit www.gvuk.com or email info@gvuk.com.",
+        thumbnail: "/assets/images/3d-software.png",
+    },
+    {
+        id: "3",
+        slag: "slug-3",
+        title: "GVUK to exhibit at The London Jewellery Show 2025",
+        date: "May 28, 2025",
+        categories: "latest-news",
+        excerpt: "Join GVUK at The London Jewellery Show, 31 Aug – 1 Sept 2025, Olympia London. Visit Stand B80 to see the latest in diamond detection, laser technology, and CAD design for jewellers.",
+        content: "GVUK is excited to announce its participation in The London Jewellery Show, taking place 31 August – 1 September 2025 at Olympia London. Visit GVUK at Stand B80 to explore the latest in jewellery technology, including advanced tools for diamond detection, laser welding, engraving, and CAD design. Discover hands-on demonstrations and expert insights across two exciting days of innovation and networking. Event Details: The London Jewellery Show Olympia London 31 August – 1 September 2025 Stand B80 www.thejewelleryshow.co.uk For more information, visit www.gvuk.com or email info@gvuk.com.",
+        thumbnail: "/assets/images/GVUK-workshops.jpg",
+    },
+    {
+        id: "4",
+        slag: "slug-4",
+        title: "GVUK to exhibit at The London Jewellery Show 2025",
+        date: "May 28, 2025",
+        categories: "latest-news",
+        excerpt: "Join GVUK at The London Jewellery Show, 31 Aug – 1 Sept 2025, Olympia London. Visit Stand B80 to see the latest in diamond detection, laser technology, and CAD design for jewellers.",
+        content: "GVUK is excited to announce its participation in The London Jewellery Show, taking place 31 August – 1 September 2025 at Olympia London. Visit GVUK at Stand B80 to explore the latest in jewellery technology, including advanced tools for diamond detection, laser welding, engraving, and CAD design. Discover hands-on demonstrations and expert insights across two exciting days of innovation and networking. Event Details: The London Jewellery Show Olympia London 31 August – 1 September 2025 Stand B80 www.thejewelleryshow.co.uk For more information, visit www.gvuk.com or email info@gvuk.com.",
+        thumbnail: "/assets/images/thumbnail-2.png",
+    },
+    {
+        id: "5",
+        slag: "slug-5",
+        title: "GVUK to exhibit at The London Jewellery Show 2025",
+        date: "May 28, 2025",
+        categories: "latest-news",
+        excerpt: "Join GVUK at The London Jewellery Show, 31 Aug – 1 Sept 2025, Olympia London. Visit Stand B80 to see the latest in diamond detection, laser technology, and CAD design for jewellers.",
+        content: "GVUK is excited to announce its participation in The London Jewellery Show, taking place 31 August – 1 September 2025 at Olympia London. Visit GVUK at Stand B80 to explore the latest in jewellery technology, including advanced tools for diamond detection, laser welding, engraving, and CAD design. Discover hands-on demonstrations and expert insights across two exciting days of innovation and networking. Event Details: The London Jewellery Show Olympia London 31 August – 1 September 2025 Stand B80 www.thejewelleryshow.co.uk For more information, visit www.gvuk.com or email info@gvuk.com.",
+        thumbnail: "/assets/images/3d-software.png",
+    },
+    {
+        id: "6",
+        slag: "slug-6",
+        title: "GVUK to exhibit at The London Jewellery Show 2025",
+        date: "May 28, 2025",
+        categories: "latest-news",
+        excerpt: "Join GVUK at The London Jewellery Show, 31 Aug – 1 Sept 2025, Olympia London. Visit Stand B80 to see the latest in diamond detection, laser technology, and CAD design for jewellers.",
+        content: "GVUK is excited to announce its participation in The London Jewellery Show, taking place 31 August – 1 September 2025 at Olympia London. Visit GVUK at Stand B80 to explore the latest in jewellery technology, including advanced tools for diamond detection, laser welding, engraving, and CAD design. Discover hands-on demonstrations and expert insights across two exciting days of innovation and networking. Event Details: The London Jewellery Show Olympia London 31 August – 1 September 2025 Stand B80 www.thejewelleryshow.co.uk For more information, visit www.gvuk.com or email info@gvuk.com.",
+        thumbnail: "/assets/images/GVUK-workshops.jpg",
+    },
+
+
+]
+
+
 

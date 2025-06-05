@@ -32,9 +32,9 @@ const NavBar = () => {
                                         {item.subItem.map((subItem) => (
                                             <li className="uppercase font-openSans text-[11px]" key={subItem.name}>
 
-                                                <NavigationMenuLink href={subItem.url} className="uppercase font-openSans text-[11px] ">
+                                                <Link href={subItem.url} className="uppercase font-openSans text-[11px] ">
                                                     {subItem.name}
-                                                </NavigationMenuLink>
+                                                </Link>
                                             </li>
                                         ))}
                                     </ul>
