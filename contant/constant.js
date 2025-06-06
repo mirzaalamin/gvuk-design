@@ -33,6 +33,12 @@ export const navItems = [
         icon: "",
         subItem: []
     },
+    {
+        name: "Contact",
+        url: "/contact",
+        icon: "",
+        subItem: []
+    },
 ]
 
 export const socialItems = [
