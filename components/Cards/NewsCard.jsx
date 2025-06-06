@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import { formatDate } from '@/lib/utils'
 
 const NewsCard = ({ id, title, slug, excerpt, content, thumbnail, url, categories, date }) => {
     return (
@@ -17,8 +18,9 @@ const NewsCard = ({ id, title, slug, excerpt, content, thumbnail, url, categorie
                 />
             </div>
             <div className="flex flex-1 flex-col gap-5 p-5 items-center justify-center">
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-2">
                     <h2 className="h3 text-primary line-clamp-2"><Link href={`/news/${slug}`}>{title}</Link></h2>
+                    <p className='post-description'>{formatDate(date)}</p>
                     <div dangerouslySetInnerHTML={{ __html: excerpt }} className="post-description !leading-6 line-clamp-6"></div>
                 </div>
             </div>

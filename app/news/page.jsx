@@ -4,7 +4,7 @@ import PostCard from '@/components/Cards/PostCard'
 import RecentPostCard from '@/components/Cards/RecentPostCard'
 import Hero from '@/components/Hero'
 import { laserStars } from '@/contant/constant'
-import { getNews } from '@/lib/utils'
+import { getNews } from '@/lib/actions/actions'
 import React from 'react'
 
 const page = async () => {
