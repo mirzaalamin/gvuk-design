@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MobileNav from './MobileNav'
 import { ModeToggle } from './Theme'
-import { NavigationMenuDemo } from './NavigationBar'
+import NavigationBar, { NavigationMenuDemo } from './NavigationBar'
 
 const Header = () => {
   return (
@@ -23,7 +23,8 @@ const Header = () => {
           </Link>
         </div>
         <div className='flex items-center justify-center gap-4'>
-          <NavBar />
+          {/* <NavBar /> */}
+          <NavigationBar />
           <MobileNav />
           <ModeToggle />
         </div>
