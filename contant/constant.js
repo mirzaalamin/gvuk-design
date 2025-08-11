@@ -27,6 +27,16 @@ export const navItems = [
         ]
     },
     {
+        name: "3D Software",
+        url: "/3d-software",
+        icon: "",
+        subItem: [{
+            name: "3D Software for Jewellers",
+            url: "/3d-software/3d-software-for-jewellers",
+            icon: ""
+        },]
+    },
+    {
         name: "Lasers",
         url: "/lasers/laser-cutting-engraving",
         icon: "",
@@ -261,6 +271,7 @@ export const medicalIndustry = [
         url: "/consumables/laser-wires/"
     },
 ]
+
 export const modelMaking = [
 
     {
