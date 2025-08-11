@@ -11,11 +11,13 @@ body {
     background-color: transparent !important;
 }
 
-*,
+/* *,
 :before,
 :after {
     border-style: hidden;
-}
+} */
+
+
 
 .sub-menu-section {
     border-style: solid;
@@ -50,7 +52,15 @@ body {
         background: linear-gradient(to bottom, #CFCFCF, #F5F5F5);
     }
 
+    .primary-gradient-reverse {
+        background: linear-gradient(to bottom, #F5F5F5, #CFCFCF);
+    }
+
     .dark .primary-gradient {
+        background: linear-gradient(to bottom, #1F2A37, #1F2A37);
+    }
+
+    .dark .primary-gradient-reverse {
         background: linear-gradient(to bottom, #1F2A37, #1F2A37);
     }
 
@@ -68,7 +78,7 @@ body {
     }
 
     .hero-title {
-        @apply font-openSans text-[36px] font-light leading-normal
+        @apply font-openSans text-[28px] lg:text-[36px] font-light leading-normal
     }
 
     .h2 {

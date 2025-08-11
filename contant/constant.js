@@ -1,10 +1,5 @@
 export const navItems = [
-    {
-        name: "Home",
-        url: "/",
-        icon: "",
-        subItem: []
-    },
+
     {
         name: "Industry Solutions",
         url: "/industry-solutions",
@@ -28,6 +23,12 @@ export const navItems = [
         subItem: []
     },
     {
+        name: "Yehuda",
+        url: "/yehuda",
+        icon: "",
+        subItem: []
+    },
+    {
         name: "News",
         url: "/news",
         icon: "",
@@ -40,6 +41,17 @@ export const navItems = [
         subItem: []
     },
 ]
+
+export const pages = {
+    HOME: "/",
+    CONTACT: "/contact",
+    NEWS: "/news",
+    YEHUDA: "/yehuda",
+    INDUSTRIAL_MARKING: "/lasers/industrial-marking",
+    LASERS_WELDING: "/lasers/laser-cutting-engraving",
+    INDUSTRY_SOLUTIONS: "/industry-solutions",
+    JEWELLERY: "/industry-solutions/laser-mark-ing-engraving-for-industry",
+}
 
 export const socialItems = [
     {
@@ -66,6 +78,45 @@ export const socialItems = [
         name: "Vimeo",
         url: "https://vimeo.com/user40598831",
         icon: "/assets/icons/vimeo.png"
+    },
+]
+
+export const whatsNew = [
+    {
+        id: 1,
+        title: "DOWNLOAD YEHUDA APP",
+        description: "After a quick registration process, you can connect it to your detector via Bluetooth or cable and perform a test.",
+        icon: "/assets/icons/detectors-icons.png"
+    },
+    {
+        id: 2,
+        title: "ADD & DELETE USERS",
+        description: "You can add and delete users so your employees can perform a test with their own phone.",
+        icon: "/assets/icons/detectors-icons2.png"
+    },
+    {
+        id: 3,
+        title: "ADD & DELETE USERS",
+        description: "You can add a certificate, a photo, SKU, item name or number, Customer name to any test and store it on the cloud.",
+        icon: "/assets/icons/detectors-icons3.png"
+    },
+    {
+        id: 4,
+        title: "ONLY $10.00 PER MONTH",
+        description: "It will give you any new updates and maintenance plus storage for about 1,000 test results.",
+        icon: "/assets/icons/detectors-icons4.png"
+    },
+    {
+        id: 5,
+        title: "BUY MORE SPACE",
+        description: "If you need more space, you can purchase more memory directly from the app.",
+        icon: "/assets/icons/detectors-icons5.png"
+    },
+    {
+        id: 6,
+        title: "ONE PAYMENT FOR ALL",
+        description: "The $10 charge is per account. You may have a few detectors but they all come under one account.",
+        icon: "/assets/icons/detectors-icons6.png"
     },
 ]
 
@@ -279,6 +330,8 @@ export const news = [
 
 
 ]
+
+export const baseUrl = "https://www.gvukdesign.co.uk"
 
 
 

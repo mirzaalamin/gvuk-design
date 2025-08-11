@@ -44,7 +44,9 @@ export default function Home() {
 
       {/* Section 4 Start */}
 
-      <div className="py-16 dark:bg-gray-900">
+      <div className="py-16 dark:bg-gray-900 text-center">
+
+        <h2 className="hero-title text-primary pb-6">What’s New</h2>
         <div className="container flex flex-col gap-10 lg:flex-row">
           <FeatureCard
             imgUrl="/assets/images/marketing-engraving.png"
