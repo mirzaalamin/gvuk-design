@@ -256,6 +256,53 @@ export const medicalIndustry = [
         url: "/consumables/laser-wires/"
     },
 ]
+export const industrial = [
+    {
+        id: "1",
+        logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
+        title: "Laser Welding for Industry",
+        description: "Laser welding, spot, welds and seams can be carried out with or without CNC integration. YAG flashlamp welders offer brilliant ROI while fibre lasers bring highly acccurate and stable, maintenance free and long-life solutions for critical applications.",
+        imageUrl: "/assets/images/surface-marketing.png",
+        buttonText: "View Products",
+        url: "/industry-solutions/laser-welders-for-industry/"
+    },
+    {
+        id: "2",
+        title: "Laser Marking & Engraving for Industry",
+        logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
+        description: "Laser marking and engraving for permanent identification, from QR and bar codes to non-abrasive marking which offers degreation resistant surface identification.",
+        imageUrl: "/assets/images/laser-marking.png",
+        buttonText: "View Products",
+        url: "/industry-solutions/laser-marking-engraving-for-industry/"
+    },
+    {
+        id: "3",
+        title: "Laser Cleaning for Industry",
+        logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
+        description: "Precise non-abrasive removal of rust, chemicals and paint, ideal for a wide range of materials including metals, plastics and composites. Mobile handheld or integrated in to production lines.",
+        imageUrl: "/assets/images/laserstar_cleaning.png",
+        buttonText: "View Products",
+        url: "/industry-solutions/laser-cleaning-for-industry/"
+    },
+    {
+        id: "4",
+        title: "Fume & Dust Extraction for Tooling & Engineering",
+        logoUrl: "/assets/images/BOFA-Logo.png",
+        description: "BOFA International are the market leader in the fume extraction industry. They have gained global recognition for the design and manufacture of their innovative and powerful fume extraction systems, suitable for the Tooling & Engineering industries.",
+        imageUrl: "/assets/images/bofa-jewellery.png",
+        buttonText: "View Extraction",
+        url: "/extraction/extraction-for-jewellers/"
+    },
+    {
+        id: "5",
+        title: "Laser wires with conformity certificates",
+        logoUrl: "/assets/images/Improbond-Logo.png",
+        description: "High grade component assured laser wires for any application. Matching materials is essential, and all our wires are sent out with conformity certificates and each wire has lasered the material code.",
+        imageUrl: "/assets/images/Laser-Wires.png",
+        buttonText: "View Laser Wires",
+        url: "/consumables/laser-wires/"
+    },
+]
 
 
 export const laserStars = [
