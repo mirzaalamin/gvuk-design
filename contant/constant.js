@@ -8,7 +8,18 @@ export const navItems = [
             name: "Jewellery",
             url: "/industry-solutions/laser-mark-ing-engraving-for-industry",
             icon: ""
-        }]
+        },
+        {
+            name: "Medical",
+            url: "/industry-solutions/medical",
+            icon: ""
+        },
+        {
+            name: "Industrial",
+            url: "/industry-solutions/tooling-and-engineering",
+            icon: ""
+        }
+        ]
     },
     {
         name: "Lasers",
@@ -158,6 +169,7 @@ export const jewelleryIndustry = [
         title: "Laser Welding, Marking and Engraving",
         description: "LaserStar Technologies specialises in high-precision laser welding, marking, and engraving systems—proudly made in the USA and trusted by jewellers worldwide. Designed for delicate and detailed work, LaserStar systems deliver exceptional results on precious metals and fine jewellery, from repairs and resizing to custom engraving and branding. With over 60 years of industry expertise, LaserStar offers comprehensive training and dedicated support, helping jewellery professionals maximise efficiency, accuracy, and creativity in their workshops.",
         imageUrl: "/assets/images/Laser-welding.png",
+        buttonText: "View Lasers",
         url: "/lasers/laser-cutting-engraving/"
     },
     {
@@ -166,7 +178,8 @@ export const jewelleryIndustry = [
         logoUrl: "/assets/images/yehuda-logo.png",
         description: "Accurately identify natural vs. lab-grown diamonds with Yehuda Diamond’s trusted CVD and HPHT detection technology. These advanced detectors analyse a stone’s response to UV light by measuring its fluorescence—delivering fast, reliable results. Ideal for jewellers, appraisers, and gem specialists, Yehuda’s detectors help determine whether a diamond is natural, lab-created, or a simulant, ensuring complete confidence in every assessment.",
         imageUrl: "/assets/images/yehunda-products.png",
-        url: ""
+        buttonText: "View Detectors",
+        url: "/yehuda"
     },
     {
         id: "3",
@@ -174,7 +187,8 @@ export const jewelleryIndustry = [
         logoUrl: "/assets/images/BOFA-Logo.png",
         description: "BOFA International is a global leader in fume and dust extraction solutions, renowned for their innovation, performance, and reliability. Trusted by professionals worldwide, BOFA designs and manufactures cutting-edge extraction systems tailored to the unique needs of the jewellery industry—providing clean, safe, and efficient working environments.",
         imageUrl: "/assets/images/bofa-jewellery.png",
-        url: ""
+        buttonText: "View Extractors",
+        url: "/extraction/extraction-for-jewellers"
     },
     {
         id: "4",
@@ -182,16 +196,68 @@ export const jewelleryIndustry = [
         logoUrl: "/assets/images/coherent-logo.png",
         description: "Rofin lasers are known for reliability and precision. Now under the Coherent brand, they’re still made in-house to ensure top quality and performance. We offer on-site servicing to minimize downtime and keep your laser welder running at peak performance. With our comprehensive service and warranty packages, you can have complete confidence in the longevity and reliability of your equipment—ensuring it delivers consistent results for years to come.",
         imageUrl: "/assets/images/coherent-laser.svg",
-        url: ""
+        buttonText: "Contact us",
+        url: "/contact"
     },
     {
         id: "5",
         title: "3D design software for Jewellers",
         description: "Take your jewellery design to the next level with MatrixGold and CounterSketch—two powerful, dynamic 3D CAD solutions built specifically for jewellers. Featuring advanced parametric controls, these tools give you complete creative freedom and precision. Create stunning visuals and professional-quality videos that not only enhance your design process but also serve as impactful marketing assets to showcase to clients.",
         imageUrl: "/assets/images/3d-software.png",
-        url: ""
+        buttonText: "View Software",
+        url: "/3d-software/3d-software-for-jewellers/"
     },
 ]
+
+export const medicalIndustry = [
+    {
+        id: "1",
+        logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
+        title: "Laser Welding & Cutting for the Medical Industry",
+        description: "Class 1 safety. Non-contact corrosion resistent marking for product traceability, orthopedic implants, medical instruments and resistent to sterilisation processes.",
+        imageUrl: "/assets/images/welding-marketing.png",
+        buttonText: "View Lasers",
+        url: "/medical/laser-welders-for-the-medical-industry/"
+    },
+    {
+        id: "2",
+        title: "3D Printers for Dental Clinics, Dental Labs, Maxillofacial & Orthodontics Departments",
+        logoUrl: "/assets/images/Desktop-Health-Logo.png",
+        description: "Accuracy, detail, speed and of course biocompatibility are essential. With EnvisionTEC, the creators of DLP and cDLM technology, you are guaranteed quality performing 3D printers and corresponding resins. Where speed, accuracy and consistency matters EnvisionTEC printers are product of choice.",
+        imageUrl: "/assets/images/3d-printers.png",
+        buttonText: "View Printers",
+        url: "/3d-printers 3d-printers-for-dental-clinics-dental-labs-maxillofacial-and-orthodontics-departments/"
+    },
+    {
+        id: "3",
+        title: "3D Scanners for Orthodontics, Dentists & Dental Labs",
+        logoUrl: "/assets/images/Thunk-3D-Logo.png",
+        description: "High precision fast scanning From Thunk3D. 0.01mm accuracy with a CMOS 1.31mp sensor, a 16mm 5mp lens and a 150mm scan area. This scanner comes with its own software for auto filling for water-tight stl files, essential for 3D printing.",
+        imageUrl: "/assets/images/3D-scanners.png",
+        buttonText: "View Scanners",
+        url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/"
+    },
+    {
+        id: "4",
+        title: "World Leading in Fume and Dust Extraction",
+        logoUrl: "/assets/images/BOFA-Logo.png",
+        description: "BOFA International are the market leader in the fume extraction industry. They have gained global recognition for the design and manufacture of their innovative and powerful fume extraction systems, suitable for the jewellery industry.",
+        imageUrl: "/assets/images/bofa-jewellery.png",
+        buttonText: "View Extraction",
+        url: "/extraction/extraction-for-jewellers/"
+    },
+    {
+        id: "5",
+        title: "Laser wires with conformity certificates",
+        logoUrl: "/assets/images/Improbond-Logo.png",
+        description: "High grade component assured laser wires for any application. Matching materials is essential, and all our wires are sent out with conformity certificates and each wire has lasered the material code.",
+        imageUrl: "/assets/images/Laser-Wires.png",
+        buttonText: "View Laser Wires",
+        url: "/consumables/laser-wires/"
+    },
+]
+
+
 export const laserStars = [
     {
         id: "1",

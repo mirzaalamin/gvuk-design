@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Button from '../Button'
 
-const PostCard = ({ id, title, description, imageUrl, logoUrl, url }) => {
+const PostCard = ({ id, title, description, imageUrl, logoUrl, url, buttonText = "View Section" }) => {
     return (
         <div className="flex flex-col lg:flex-row gap-10 border-t-2 border-primary dark:bg-gray-800 primary-gradient px-8 py-12">
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
@@ -19,8 +19,8 @@ const PostCard = ({ id, title, description, imageUrl, logoUrl, url }) => {
                     )}
                     <h2 className="h3 text-primary">{title}</h2>
                     <p className="post-description">{description}</p>
-                    <Button primary url={url}>
-                        View Section
+                    <Button primary url={url} otherClasses="uppercase text-[13px]">
+                        {buttonText}
                     </Button>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const PostCard = ({ id, title, description, imageUrl, logoUrl, url }) => {
                     src={imageUrl}
                     alt='Engineering'
                     quality={100}
-                    width={800}
+                    width={500}
                     height={350}
                     sizes="(max-width: 768px) 100vw, 800px"
                 />
