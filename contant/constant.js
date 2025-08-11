@@ -18,6 +18,11 @@ export const navItems = [
             name: "Industrial",
             url: "/industry-solutions/tooling-and-engineering",
             icon: ""
+        },
+        {
+            name: "Model Making",
+            url: "/industry-solutions/model-making",
+            icon: ""
         }
         ]
     },
@@ -256,6 +261,29 @@ export const medicalIndustry = [
         url: "/consumables/laser-wires/"
     },
 ]
+export const modelMaking = [
+
+    {
+        id: "1",
+        title: "3D Printers for Model Makers",
+        logoUrl: "/assets/images/Desktop-Health-Logo.png",
+        description: "For injection moulding materials, Industry leading RC nanocure and HTM140 materials offer strength and surface detail for hot and cold moulding. We also supply other materials for larger items, some of which have end user properties including flexible and clear options.",
+        imageUrl: "/assets/images/3D-printers-for-Model-Makers.png",
+        buttonText: "View Printers",
+        url: "/3d-printers%203d-printers-for-dental-clinics-dental-labs-maxillofacial-and-orthodontics-departments"
+    },
+    {
+        id: "2",
+        title: "3D Scanners for Model Makers",
+        logoUrl: "/assets/images/Thunk-3D-Logo.png",
+        description: "Both the desktop and handheld scanner offer excellent resolution scanning with accuracy, and these are editable and scalable in any software, in particular ZBrush and Rhino 7. The Hand-held scanner is in full colour allowing precise reproductions, perfect for vintage uniforms or locomotive sections.",
+        imageUrl: "/assets/images/3D-Scanners-for-Model-Makers2.png",
+        buttonText: "View Scanners",
+        url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/"
+    },
+
+]
+
 export const industrial = [
     {
         id: "1",
