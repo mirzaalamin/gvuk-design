@@ -10,8 +10,6 @@ import { usePathname } from "next/navigation"
 
 export default function NavigationBar() {
     const pathname = usePathname()
-
-    console.log(pathname)
     return (
         <nav className="bg-transparent hidden lg:flex">
             <ul className="flex space-x-6 px-6 py-4">

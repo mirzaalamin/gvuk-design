@@ -42,23 +42,23 @@ export const navItems = [
         icon: "",
         subItem: [
             {
-                name: "3D Software for Jewellers",
-                url: "/3d-scanners/3d-scanner-for-jewellers/",
+                name: "3D Scanners for Jewellers",
+                url: "/3d-scanners/3d-scanner-for-jewellers",
                 icon: ""
             },
             {
                 name: "3D Scanner for Orthodontics, Dentists & Dental Labs",
-                url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/",
+                url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs",
                 icon: ""
             },
             {
                 name: "3D Scanners for Model Makers",
-                url: "/3d-scanners/3d-scanners-for-model-makers/",
+                url: "/3d-scanners/3d-scanners-for-model-makers",
                 icon: ""
             },
             {
                 name: "3D Scanners for Engineers",
-                url: "/3d-scanners/3d-scanners-for-engineers/",
+                url: "/3d-scanners/3d-scanners-for-engineers",
                 icon: ""
             },
         ]

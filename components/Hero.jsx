@@ -1,8 +1,11 @@
+
+
 import React, { Fragment } from 'react'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 
-const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUrl, preventLogoInvert }) => {
+const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUrl }) => {
+
     return (
         <div className="flex flex-col lg:flex-row py-8 lg:py-0 gap-10">
             <div className="flex flex-1 flex-col lg:pt-0 gap-5 justify-center ">

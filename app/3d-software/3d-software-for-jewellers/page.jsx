@@ -10,7 +10,9 @@ const page = () => {
             {/* Section 1 Start */}
             <div className='bg-primary dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
                 <div className="container">
-                    <Hero title="3D design software for Jewellers" preventLogoInvert={true} logoUrl="/assets/images/Gemvision.png" description="Ground-braking Dynamic MatrixGold and parametric CounterSketch give you total control of all your designs, with superb imaging and video output doubling as a professional marketing tool."
+                    <Hero title="3D design software for Jewellers"
+                        logoUrl="/assets/images/Gemvision.png"
+                        description="Ground-braking Dynamic MatrixGold and parametric CounterSketch give you total control of all your designs, with superb imaging and video output doubling as a professional marketing tool."
                         imgUrl="/assets/images/3d-software-for-jewellers.png"
                         titleColor="text-white"
                         descriptionColor="!text-white"
