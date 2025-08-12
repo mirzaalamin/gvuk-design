@@ -41,7 +41,7 @@ const page = () => {
                             </div>
                         </div>
                         <div className="flex-1">
-                            <iframe className="w-full" title="vimeo-player" src="https://player.vimeo.com/video/1083561541?h=b92c91cebc" width="380" height="250" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+                            <iframe className="w-full" title="vimeo-player" src="https://player.vimeo.com/video/1083561541?h=b92c91cebc" width="380" height="250" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>

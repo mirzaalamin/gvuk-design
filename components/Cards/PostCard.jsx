@@ -14,7 +14,7 @@ const PostCard = ({ id, title, description, imageUrl, logoUrl, url, buttonText =
                             quality={100}
                             width={150}
                             height={150}
-                            className="w-[100px] dark:invert"
+                            className="w-[150px] dark:invert"
                         />
                     )}
                     <h2 className="h3 text-primary">{title}</h2>

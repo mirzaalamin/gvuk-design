@@ -294,6 +294,28 @@ export const modelMaking = [
     },
 
 ]
+export const threeDSoftwares = [
+
+    {
+        id: "1",
+        title: "3D Printers for Model Makers",
+        logoUrl: "/assets/images/MatrixGold-Logo.png",
+        description: "MatrixGold allows you complete freedom to design and build up your own collections, export the files to be 3D printed and manufactured anywhere you choose. The rendering and animations are powerful marketing assets too.",
+        imageUrl: "/assets/images/MatrixGold.png",
+        buttonText: "View Software",
+        url: "/3d-software/3d-software-for-jewellers/matrixgold/"
+    },
+    {
+        id: "2",
+        title: "3D Scanners for Model Makers",
+        logoUrl: "/assets/images/Countersketch-Logo.png",
+        description: "CounterSketch is one of the best sales aids in the world. With a library of over 2,500 designs that each have around 300 variations plus another library of 1,500 components you can use to add to existing designs or build up from scratch. Partnered with Stuller who will manufacture your jewellery and deliver in around 15-days this makes for an attractive and easy to use sales tool.",
+        imageUrl: "/assets/images/CounterSketch.png",
+        buttonText: "View Software",
+        url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/"
+    },
+
+]
 
 export const industrial = [
     {
