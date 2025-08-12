@@ -9,10 +9,14 @@ const page = () => {
             {/* Section 1 Start */}
             <div className='bg-primary dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
                 <div className="container">
-                    <Hero title="3D Scanners" logoUrl="/assets/images/Thunk-3D-Logo_White.png" description="At last, affordable high-resolution white-light 3D scanners. A fast and easy to use desktop option, for jewellery or dental impressions, plus a hand-held model in full colour for larger items including head and shoulders, engineered parts and works of art. Supplied with tutorial video and UK telephone/video support."
+                    <Hero
+                        title="3D Scanners"
+                        logoUrl="/assets/images/Thunk-3D-Logo_White.png"
+                        description="At last, affordable high-resolution white-light 3D scanners. A fast and easy to use desktop option, for jewellery or dental impressions, plus a hand-held model in full colour for larger items including head and shoulders, engineered parts and works of art. Supplied with tutorial video and UK telephone/video support."
                         imgUrl="/assets/images/3D-Scanners-1.png"
                         titleColor="text-white"
                         descriptionColor="!text-white"
+
                     />
                 </div>
             </div>

@@ -17,9 +17,9 @@ const VideoCard = ({ children, title, imageUrl, price, buttonText, buttonUrl = "
             </VideoPopup>
 
             <div>
-                <h3 className='h3 text-primary dark:text-white'>
+                <h3 className='h3 text-primary'>
                     {title}</h3>
-                <h3 className='h3 text-primary dark:text-white'>{price}</h3>
+                <h3 className='h3 text-primary'>{price}</h3>
             </div>
             <div>
                 {children}

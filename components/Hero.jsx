@@ -4,7 +4,7 @@ import React, { Fragment } from 'react'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 
-const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUrl }) => {
+const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUrl, logoInvert }) => {
 
     return (
         <div className="flex flex-col lg:flex-row py-8 lg:py-0 gap-10">
@@ -17,7 +17,7 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                             quality={100}
                             width={150}
                             height={150}
-                            className={`w-[150px] dark:invert`}
+                            className={`w-[150px] ${logoInvert && "dark:invert"}`}
                         />
                     )}
                     <h2 className={`hero-title ${titleColor} dark:text-primary`}>{title}</h2>

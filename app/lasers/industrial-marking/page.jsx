@@ -32,6 +32,7 @@ const page = () => {
                         titleColor="text-primary"
                         descriptionColor="text-[#444444]"
                         logoUrl="/assets/images/LaserStar_Logo_Red-1200px.png"
+                        logoInvert
                     />
                 </div>
             </div>
