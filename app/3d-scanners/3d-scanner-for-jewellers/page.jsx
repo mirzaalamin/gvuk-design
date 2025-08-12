@@ -1,21 +1,43 @@
+import Button from '@/components/Button'
 import PostCard from '@/components/Cards/PostCard'
+import RecentPostCard from '@/components/Cards/RecentPostCard'
+import ImageSlider from '@/components/Carousel/ImageSlider'
 import Hero from '@/components/Hero'
-import { threeDScanners } from '@/contant/constant'
+import { laserStars, pages, threeDScanners } from '@/contant/constant'
 import React from 'react'
 
+const sliderImages = [
+    {
+        id: 1,
+        image: "/assets/images/scan-and-wed-fit.jpg"
+    },
+    {
+        id: 2,
+        image: "/assets/images/test-glen.jpg"
+    },
+    {
+        id: 3,
+        image: "/assets/images/pear-ring-scanned-then-rendered-as-rose-gold.jpg"
+    },
+    {
+        id: 4,
+        image: "/assets/images/scan-and-wed-fit-render.png"
+    },
+]
+
 const page = () => {
+
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='bg-primary dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
+            <div className='primary-gradient dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
                 <div className="container">
                     <Hero
-                        title="3D Scanners"
-                        logoUrl="/assets/images/Thunk-3D-Logo_White.png"
-                        description="At last, affordable high-resolution white-light 3D scanners. A fast and easy to use desktop option, for jewellery or dental impressions, plus a hand-held model in full colour for larger items including head and shoulders, engineered parts and works of art. Supplied with tutorial video and UK telephone/video support."
-                        imgUrl="/assets/images/3D-Scanners-1.png"
-                        titleColor="text-white"
-                        descriptionColor="!text-white"
+                        title="3D Scanner for Jewellers"
+                        logoUrl=""
+                        description="3D scanning is perfect for scanning a client’s ring for creating a fitted band or scanning a gemstone to accurately design a head, digital recording of historic items. Auto process makes this an easy-to-use program for exporting STL files."
+                        imgUrl="/assets/images/3d-scanner-1.png"
+                        titleColor="text-primary"
 
                     />
                 </div>
@@ -24,10 +46,49 @@ const page = () => {
 
             {/* Section 2 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
-                <div className='container flex flex-col gap-10'>
-                    {threeDScanners.map((post) => (
-                        <PostCard {...post} key={post.id} />
-                    ))}
+                <div className='container  flex flex-col lg:flex-row gap-16'>
+                    <div className='flex flex-col flex-1 gap-6'>
+                        <h2 className="h2 text-primary">How 3D scanning can help your business</h2>
+                        <p className='font-openSans text-[14px] text-[#444444] dark:text-white leading-6'>Easy to use scanning in minutes with software and training included. Perfect for gemstones, wed-fit designs and reproduction of treasured items.
+
+                            CMOS,1.31mp sensor with 5-80mm scanning area and 16mm/5mp lens and a resolution of 0.06mm Save the scan as STL for easy import into any cad program. Requires scanning spray to remove reflections – sold separately.</p>
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/481177365?h=26b136d9c4" width="640" height="450" frameBorder="0" allowFullScreen className='w-full'></iframe>
+                        <h2 className="h2 text-primary">Details</h2>
+                        <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
+                            <p>• Easy to use software included</p>
+                            <p>• Scan objects in minutes</p>
+                            <p>• 5MP lens 0.06mm resolution</p>
+                            <p>• Full training video provided</p>
+                            <p>• Requires Nvidia GPU and Intel CPU Note not AMD or Radeon</p>
+                        </div>
+                        <h2 className="h2 text-primary">Included in box:</h2>
+                        <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
+                            <p>• 3D scanner</p>
+                            <p>• Cables UK plug & USB cable</p>
+                            <p>• Calibration plate</p>
+                            <p>• USB disk</p>
+                            <p>• Die (12 positions)</p>
+                            <p>• Software</p>
+                            <p>• Link to instruction video</p>
+                            <p>• Blue Tack</p>
+                        </div>
+                        <b className='text-[14px]'>£4,500 +VAT – Free shipping UK & Ireland</b>
+                        <Button url={pages.CONTACT} primary otherClasses="text-[13px]">
+                            CONTACT US FOR MORE INFORMATION
+                        </Button>
+
+                        <div className='flex flex-col gap-10 mt-12'>
+                            <ImageSlider images={sliderImages} />
+                        </div>
+                    </div>
+                    <div className="shrink-0 lg:w-[300px] flex flex-col gap-5">
+                        <h2 className="h3 text-primary">LaserStar News</h2>
+                        <div className='flex flex-col gap-10'>
+                            {laserStars.map((post) => (
+                                <RecentPostCard {...post} key={post.id} />
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* Section 2 End */}

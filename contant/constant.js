@@ -354,7 +354,7 @@ export const threeDScanners = [
         description: "Easy to use scanning in minutes with software and training included. Perfect for gemstones, wed-fit designs and reproduction of treasured items.",
         imageUrl: "/assets/images/3d-scanner-1.png",
         buttonText: "View Scanner",
-        url: "/3d-scanners/3d-scanner-for-jewellers/"
+        url: "/3d-scanners/3d-scanner-for-jewellers"
     },
     {
         id: "2",
@@ -363,7 +363,7 @@ export const threeDScanners = [
         description: "Scan dental impressions in a few minutes, editing software included then open the saved files in your dental cad software, perfect for surgical guides, retainers restorations, orthodontics and implant cases.",
         imageUrl: "/assets/images/3D-scanners.png",
         buttonText: "View Scanner",
-        url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/"
+        url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs"
     },
     {
         id: "3",
@@ -372,7 +372,7 @@ export const threeDScanners = [
         description: "Perfect re-production of models for editing in your own cad program, this High quality 3D scanner scans to 5-80mm with a resolution at 0.06mm.",
         imageUrl: "/assets/images/3D-Scanners-for-Model-Makers-1-1.png",
         buttonText: "View Scanner",
-        url: "/3d-scanners/3d-scanners-for-model-makers/"
+        url: "/3d-scanners/3d-scanners-for-model-makers"
     },
     {
         id: "4",
@@ -381,7 +381,7 @@ export const threeDScanners = [
         description: "Reverse engineering solution with autofill and full colour or black & white. A selection of hand-held models are available for perfect scanning from 20cm – 200cm. Mesh fixing software and part assembly of scans is included in the software.",
         imageUrl: "/assets/images/3D-Scanners-for-Engineers-1-2.png",
         buttonText: "View Scanner",
-        url: "/3d-scanners/3d-scanners-for-engineers/"
+        url: "/3d-scanners/3d-scanners-for-engineers"
     },
 
 ]
