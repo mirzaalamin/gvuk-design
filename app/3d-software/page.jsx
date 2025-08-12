@@ -21,7 +21,7 @@ const page = () => {
             {/* Section 2 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
-                    <p className='text-[17px] text-[#444444] font-light font-openSans'>Intuitive to use, these CAD/CAM programs allow you to design with full control of your models without compromise, controlling weights and scale ahead of manufacturing while offering incredible presentation options to visualise designs with advance rendering and animations.</p>
+                    <p className='text-[17px] text-[#444444] dark:text-white font-light font-openSans'>Intuitive to use, these CAD/CAM programs allow you to design with full control of your models without compromise, controlling weights and scale ahead of manufacturing while offering incredible presentation options to visualise designs with advance rendering and animations.</p>
                 </div>
             </div>
             {/* Section 2 End */}
