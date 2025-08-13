@@ -4,7 +4,7 @@ import RecentPostCard from '@/components/Cards/RecentPostCard'
 import ImageSlider from '@/components/Carousel/ImageSlider'
 import Hero from '@/components/Hero'
 import VideoSidebar from '@/components/VideoSidebar'
-import { laserStars, pages, threeDScanners } from '@/contant/constant'
+import { pages } from '@/contant/constant'
 import React from 'react'
 
 const sliderImages = [
@@ -68,7 +68,7 @@ const page = () => {
                         <p className='font-openSans text-[14px] text-[#444444] dark:text-white leading-6'>Easy to use scanning in minutes with software and training included. Perfect for gemstones, wed-fit designs and reproduction of treasured items.
 
                             CMOS,1.31mp sensor with 5-80mm scanning area and 16mm/5mp lens and a resolution of 0.06mm Save the scan as STL for easy import into any cad program. Requires scanning spray to remove reflections – sold separately.</p>
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/481177365?h=26b136d9c4" width="640" height="450" frameBorder="0" allowFullScreen className='w-full'></iframe>
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/481177365?h=26b136d9c4" width="640" frameBorder="0" allowFullScreen className='w-full h-[250px] lg:h-[450]'></iframe>
                         <h2 className="h2 text-primary">Details</h2>
                         <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
                             <p>• Easy to use software included</p>
@@ -99,7 +99,7 @@ const page = () => {
                     </div>
                     <div className="shrink-0 lg:w-[300px] flex flex-col gap-5">
                         <div className='flex flex-col gap-10'>
-                            <div className='dark:bg-gray-800 px-4 py-6 bg-[#F0F0F0]'>
+                            <div className='dark:bg-gray-800 flex flex-col gap-3 px-4 py-6 bg-[#F0F0F0]'>
 
                                 <h2 className="h4 text-primary">3D Scanning videos</h2>
                                 <p className="post-description !leading-6">Watch the magic with these short taster videos</p>

@@ -82,7 +82,7 @@ body {
     }
 
     .h2 {
-        @apply font-openSans text-[27px] leading-6
+        @apply font-openSans text-[27px] leading-9
     }
 
     .h4 {
