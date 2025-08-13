@@ -69,7 +69,7 @@ const page = () => {
 
                             CMOS,1.31mp sensor with 5-80mm scanning area and 16mm/5mp lens and a resolution of 0.06mm Save the scan as STL for easy import into any cad program. Requires scanning spray to remove reflections – sold separately.</p>
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/481177365?h=26b136d9c4" width="640" frameBorder="0" allowFullScreen className='w-full h-[250px] lg:h-[450]'></iframe>
-                        <h2 className="h2 text-primary">Details</h2>
+                        <h2 className="h4 text-primary">Details</h2>
                         <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
                             <p>• Easy to use software included</p>
                             <p>• Scan objects in minutes</p>
@@ -77,7 +77,7 @@ const page = () => {
                             <p>• Full training video provided</p>
                             <p>• Requires Nvidia GPU and Intel CPU Note not AMD or Radeon</p>
                         </div>
-                        <h2 className="h2 text-primary">Included in box:</h2>
+                        <h2 className="h4 text-primary">Included in box:</h2>
                         <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
                             <p>• 3D scanner</p>
                             <p>• Cables UK plug & USB cable</p>

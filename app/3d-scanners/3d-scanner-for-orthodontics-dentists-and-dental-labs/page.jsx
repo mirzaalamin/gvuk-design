@@ -51,7 +51,7 @@ const page = () => {
                         <p className='font-openSans text-[14px] text-[#444444] dark:text-white leading-6'>Perfect solution for restorations, orthodontics and implants. Accurately scan impressions that can be taken into any cad software for editing and 3D printing. You will appreciate the accuracy of precision scanning 3D printed models.</p>
                         <Image src="/assets/images/dental-scan-impression.jpg" className='h-[350px] lg:h-[500px] w-full' width={400} height={500} alt='dental-scan-impression' />
 
-                        <h2 className="h2 text-primary">Details</h2>
+                        <h2 className="h4 text-primary">Details</h2>
                         <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
                             <p>• Sensor: CMOS,1.31mp * 2</p>
                             <p>• Scan volume: 10-150 mm</p>
@@ -59,7 +59,7 @@ const page = () => {
                             <p>• Requires Nvidia GPU and Intel CPU Note not AMD or Radeon</p>
 
                         </div>
-                        <h2 className="h2 text-primary">Included in box:</h2>
+                        <h2 className="h4 text-primary">Included in box:</h2>
                         <div className='text-[14px] text-[#444444] dark:text-white leading-6'>
                             <p>• Thunk3D scanner</p>
                             <p>• Calibration tray</p>
