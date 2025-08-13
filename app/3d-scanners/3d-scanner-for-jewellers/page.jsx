@@ -3,6 +3,7 @@ import PostCard from '@/components/Cards/PostCard'
 import RecentPostCard from '@/components/Cards/RecentPostCard'
 import ImageSlider from '@/components/Carousel/ImageSlider'
 import Hero from '@/components/Hero'
+import VideoSidebar from '@/components/VideoSidebar'
 import { laserStars, pages, threeDScanners } from '@/contant/constant'
 import React from 'react'
 
@@ -23,6 +24,21 @@ const sliderImages = [
         id: 4,
         image: "/assets/images/scan-and-wed-fit-render.png"
     },
+]
+
+const sideBarVideos = [
+    {
+        id: 1,
+        title: "Ring Scan",
+        description: "3D scan of a ring using the Thunk3D jewellery scanner.",
+        videoUrl: "https://player.vimeo.com/video/554691539?h=bf96b70c7e"
+    },
+    {
+        id: 2,
+        title: "3D Model Scan",
+        description: "3D scan of a model horse.",
+        videoUrl: "https://player.vimeo.com/video/680411157?h=72a889ac47"
+    }
 ]
 
 const page = () => {
@@ -82,11 +98,17 @@ const page = () => {
                         </div>
                     </div>
                     <div className="shrink-0 lg:w-[300px] flex flex-col gap-5">
-                        <h2 className="h3 text-primary">LaserStar News</h2>
                         <div className='flex flex-col gap-10'>
-                            {laserStars.map((post) => (
-                                <RecentPostCard {...post} key={post.id} />
-                            ))}
+                            <div className='dark:bg-gray-800 px-4 py-6 bg-[#F0F0F0]'>
+
+                                <h2 className="h4 text-primary">3D Scanning videos</h2>
+                                <p className="post-description !leading-6">Watch the magic with these short taster videos</p>
+                                <div className='mt-10'>
+                                    {sideBarVideos.map((item) => (
+                                        <VideoSidebar {...item} key={item.id} />
+                                    ))}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
