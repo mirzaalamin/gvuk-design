@@ -73,7 +73,16 @@ export const navItems = [
         name: "Consumables",
         url: "/consumables",
         icon: "",
-        subItem: []
+        subItem: [{
+            name: "Resins",
+            url: "/consumables/resins",
+            icon: ""
+        },
+        {
+            name: "ResinLaser Wires",
+            url: "/consumables/laser-wires",
+            icon: ""
+        },]
     },
     {
         name: "News",
@@ -97,7 +106,9 @@ export const pages = {
     INDUSTRIAL_MARKING: "/lasers/industrial-marking",
     LASERS_WELDING: "/lasers/laser-cutting-engraving",
     INDUSTRY_SOLUTIONS: "/industry-solutions",
+    INDUSTRIAL: "/industry-solutions/tooling-and-engineering",
     JEWELLERY: "/industry-solutions/laser-mark-ing-engraving-for-industry",
+    MEDICAL: "/industry-solutions/medical",
 }
 
 export const socialItems = [

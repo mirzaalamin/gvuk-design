@@ -3,6 +3,7 @@ import FeatureCard from "@/components/Cards/FeatureCard";
 import HeroCard from "@/components/Cards/HeroCard";
 import LogoCarousel from "@/components/Carousel/LogoCarousel";
 import TitleVideoSection from "@/components/TitleVideoSection";
+import { pages } from "@/contant/constant";
 
 export default function Home() {
   return (
@@ -10,11 +11,11 @@ export default function Home() {
       {/* Section 1 Start */}
       <div className="bg-primary dark:bg-gray-800 pt-[100px]">
         <div className="container grid grid-cols-1 lg:grid-cols-3 py-5 lg:py-0 gap-5 lg:gap-0">
-          <HeroCard title="Jewellery" subtitle="Industry" buttonText="Click Here" buttonUrl="#" otherClasses="bg-[url(/assets/images/gvuk_laserstar_industrial_sectors.png)]" />
+          <HeroCard title="Jewellery" subtitle="Industry" buttonText="Click Here" buttonUrl={pages.JEWELLERY} otherClasses="bg-[url(/assets/images/gvuk_laserstar_industrial_sectors.png)]" />
 
-          <HeroCard title="Medical" subtitle="Practices" buttonText="Click Here" buttonUrl="#" otherClasses="bg-[url(/assets/images/gvuk_laserstar_medical_practices.png)]" />
+          <HeroCard title="Medical" subtitle="Practices" buttonText="Click Here" buttonUrl={pages.MEDICAL} otherClasses="bg-[url(/assets/images/gvuk_laserstar_medical_practices.png)]" />
 
-          <HeroCard title="Industrial" subtitle="Sectors" buttonText="Click Here" buttonUrl="#" otherClasses="bg-[url(/assets/images/gvuk_laserstar_industrial_sectors-1.png)]" />
+          <HeroCard title="Industrial" subtitle="Sectors" buttonText="Click Here" buttonUrl={pages.INDUSTRIAL} otherClasses="bg-[url(/assets/images/gvuk_laserstar_industrial_sectors-1.png)]" />
 
         </div>
       </div>
@@ -52,18 +53,18 @@ export default function Home() {
             imgUrl="/assets/images/marketing-engraving.png"
             title="Laser welding, marking & engraving"
             buttonText="Jewellery industry"
-            buttonUrl="#" />
+            buttonUrl={pages.JEWELLERY} />
 
           <FeatureCard
             imgUrl="/assets/images/surface-marketing.png"
             title="Laser welding, cutting & non surface marking"
             buttonText="Medical Practices"
-            buttonUrl="#" />
+            buttonUrl={pages.MEDICAL} />
           <FeatureCard
             imgUrl="/assets/images/welding-marketing.png"
             title="Precise and fast laser welding & marking"
             buttonText="Industrial Sectors"
-            buttonUrl="#" />
+            buttonUrl={pages.INDUSTRIAL} />
         </div>
       </div>
 

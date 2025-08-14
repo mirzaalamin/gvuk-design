@@ -99,8 +99,8 @@ const Footer = () => {
                         </p>
                     </div>
                     <div>
-                        <Button url="#" primary>
-                            Sign up to our newsletter
+                        <Button url="https://gvukdesign.us18.list-manage.com/subscribe?u=d6b50d013aa88d6e297f7daf1&id=69984f7dec" primary otherClasses="text-[13px]">
+                            SIGN UP TO OUR NEWSLETTER
                         </Button>
                     </div>
                 </div>
