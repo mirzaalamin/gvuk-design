@@ -64,20 +64,14 @@ export const navItems = [
         ]
     },
     {
-        name: "Lasers",
-        url: "/lasers/laser-cutting-engraving",
-        icon: "",
-        subItem: []
-    },
-    {
-        name: "Industrial Marking",
-        url: "/lasers/industrial-marking",
-        icon: "",
-        subItem: []
-    },
-    {
         name: "Yehuda",
         url: "/yehuda",
+        icon: "",
+        subItem: []
+    },
+    {
+        name: "Consumables",
+        url: "/consumables",
         icon: "",
         subItem: []
     },
