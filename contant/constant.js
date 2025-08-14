@@ -338,6 +338,27 @@ export const threeDSoftwares = [
     },
 
 ]
+export const consumables = [
+
+    {
+        id: "1",
+        title: "Resins for DLP 3D Printers",
+        description: "Creators of DLP technology, EnvisionTEC are one of the largest producers of resin from bio-compatible medically approved materials to end user materials from Loctite™ and Somos™ to in-house wax based, e-poxy and ABS-style materials.",
+        imageUrl: "/assets/images/Resins.png",
+        buttonText: "View Resins",
+        url: "/consumables/resins/"
+    },
+    {
+        id: "2",
+        title: "Laser Wires",
+        logoUrl: "/assets/images/Improbond-Logo.png",
+        description: "High grade component assured laser wires for any application. Matching materials is essential, and all our wires are sent out with conformity certificates and each wire has lasered the material code. Available in 320mm lengths or on a spool we stock 0.2mm to 0.8mm",
+        imageUrl: "/assets/images/Laser-Wires-2.png",
+        buttonText: "View Laser Wires",
+        url: "/consumables/laser-wires/"
+    },
+
+]
 
 export const threeDScanners = [
 
