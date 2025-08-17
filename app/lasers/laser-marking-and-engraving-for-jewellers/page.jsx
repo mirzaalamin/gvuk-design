@@ -1,10 +1,17 @@
+
+
 import PostCard from '@/components/Cards/PostCard'
 import RecentPostCard from '@/components/Cards/RecentPostCard'
 import Hero from '@/components/Hero'
 import { laserStars } from '@/contant/constant'
-import React from 'react'
+import { getProductsByCategory } from '@/lib/actions/actions'
 
-const page = () => {
+
+const page = async () => {
+
+    const products = await getProductsByCategory(57)
+
+    console.log(products)
     return (
         <div>
             {/* Section 1 Start */}
@@ -31,8 +38,8 @@ const page = () => {
                             <h5 className='mb-5'>Explore the future of ring engraving</h5> <p className='text-[14px] text-[#444444] dark:text-white leading-6'>-Personalise rings with names, messages, or logos</p> <p className='text-[14px] text-[#444444] dark:text-white leading-6'>-See the full process from setup to final result</p> <p className='text-[14px] text-[#444444] dark:text-white leading-6'>-Ideal for custom jewellery and retail applications</p>
                         </div>
                         <div className='flex flex-col gap-10 mt-12'>
-                            {laserStars.map((post) => (
-                                <PostCard {...post} key={post.id} />
+                            {products.map((product) => (
+                                <PostCard {...product} key={product.id} />
                             ))}
                         </div>
                     </div>

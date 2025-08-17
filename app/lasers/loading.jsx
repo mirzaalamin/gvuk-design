@@ -7,7 +7,7 @@ const loading = () => {
     return (
 
 
-        <div>
+        <div className='container'>
             {/* Section 1 Start */}
             <div className='bg-primary dark:bg-gray-800 pt-[100px]'>
                 <div className="container">
@@ -46,15 +46,17 @@ const loading = () => {
                     <div className='flex flex-col flex-1 gap-6'>
                         <h2 className="h3 text-primary">Latest news</h2>
 
-                        <div className='grid lg:grid-cols-1 gap-10'>
+                        <div className='grid lg:grid-cols-2 gap-10'>
                             <PostCardSkeleton />
+                            <PostCardSkeleton />
+                            <PostCardSkeleton />
+                            <PostCardSkeleton />
+
                         </div>
                     </div>
                     <div className="shrink-0 lg:w-[300px] flex flex-col gap-5">
                         <h2 className="h3 text-primary">Training & Events</h2>
                         <div className='flex flex-col gap-10'>
-                            <RecentPostCardSkeleton />
-                            <RecentPostCardSkeleton />
                             <RecentPostCardSkeleton />
                         </div>
                     </div>

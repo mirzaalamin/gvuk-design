@@ -18,7 +18,7 @@ const PostCard = ({ id, title, description, imageUrl, logoUrl, url, buttonText =
                         />
                     )}
                     <h2 className="h3 text-primary">{title}</h2>
-                    <p className="post-description">{description}</p>
+                    <p className="post-description" dangerouslySetInnerHTML={{ __html: description }}></p>
                     <Button primary url={url} otherClasses="uppercase text-[13px]">
                         {buttonText}
                     </Button>
