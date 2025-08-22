@@ -4,7 +4,7 @@ import Button from '../Button'
 
 const PostCard = ({ id, title, description, imageUrl, logoUrl, url, buttonText = "View Section" }) => {
     return (
-        <div className="flex flex-col lg:flex-row gap-10 border-t-2 border-primary dark:bg-gray-800 primary-gradient px-8 py-12">
+        <div className="flex flex-col  items-center justify-center lg:flex-row gap-10 border-t-2 border-primary dark:bg-gray-800 primary-gradient px-8 py-12">
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
                 <div className="flex flex-col gap-5">
                     {logoUrl && (
@@ -31,9 +31,9 @@ const PostCard = ({ id, title, description, imageUrl, logoUrl, url, buttonText =
                     alt='Engineering'
                     quality={100}
                     width={100}
-                    height={350}
+                    height={150}
                     className="w-full lg:w-[400px]"
-                    sizes="(max-width: 768px) 100vw, 800px"
+                    sizes="(max-width: 768px) 100vw, 150px"
                 />
             </div>
         </div>
