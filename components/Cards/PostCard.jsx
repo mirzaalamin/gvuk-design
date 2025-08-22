@@ -30,8 +30,9 @@ const PostCard = ({ id, title, description, imageUrl, logoUrl, url, buttonText =
                     src={imageUrl}
                     alt='Engineering'
                     quality={100}
-                    width={500}
+                    width={100}
                     height={350}
+                    className="w-full lg:w-[400px]"
                     sizes="(max-width: 768px) 100vw, 800px"
                 />
             </div>

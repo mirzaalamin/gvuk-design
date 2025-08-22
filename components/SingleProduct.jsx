@@ -5,7 +5,7 @@ import { pages } from '@/contant/constant'
 
 const SingleProduct = ({ content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }) => {
     return (
-        <div className="flex flex-col-reverse lg:flex-row gap-10 dark:bg-gray-800 py-12">
+        <div className="flex flex-col-reverse lg:flex-row gap-10  py-12">
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
                 <div className="flex flex-col gap-5">
                     {logoUrl && (
@@ -19,9 +19,11 @@ const SingleProduct = ({ content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }
                         />
                     )}
                     <p className="post-description" dangerouslySetInnerHTML={{ __html: content }} ></p>
-                    <Button primary url={sheetUrl} otherClasses="bg-[#8C8C8C] text-[13px]">
-                        DOWNLOAD DATA SHEET
-                    </Button>
+                    {sheetUrl && (
+                        <Button primary url={sheetUrl} otherClasses="bg-[#8C8C8C] text-[13px]">
+                            DOWNLOAD DATA SHEET
+                        </Button>
+                    )}
                     <Button primary url={pages.CONTACT} otherClasses="text-[13px]">
                         CONTACT US FOR MORE INFORMATION
                     </Button>

@@ -30,10 +30,10 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                         src={imgUrl}
                         alt='Laser star'
                         quality={100}
-                        width={800}
-                        height={350}
-                        className='w-full h-full object-cover'
-                        sizes="(max-width: 768px) 100vw, 800px"
+                        width={500}
+                        height={250}
+                        className='w-full'
+                        sizes="(max-width: 768px) 100vw, 400px"
                     />
                 </div>
             )}

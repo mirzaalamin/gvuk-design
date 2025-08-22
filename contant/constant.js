@@ -468,7 +468,8 @@ export const laserStars = [
         title: "Laser Marking and Engraving",
         description: "Made in the USA, with exceptional quality and performance,available with extensive training and support.",
         imageUrl: "/assets/images/laser-marking.png",
-        url: "/lasers/laser-marking-and-engraving-for-jewellers"
+        url: "/lasers/laser-marking-and-engraving-for-jewellers",
+        buttonText: "View Lasers Marking & engraving"
     },
     {
         id: "2",
@@ -476,7 +477,8 @@ export const laserStars = [
         logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
         description: "Made in the USA, with exceptional quality and performance,available with extensive training and support.",
         imageUrl: "/assets/images/iweld-993.png",
-        url: ""
+        url: "/lasers/laser-welders-for-jewellers",
+        buttonText: "View Lasers Welding"
     },
     {
         id: "3",
@@ -484,7 +486,8 @@ export const laserStars = [
         logoUrl: "/assets/images/laserstar-academy-logo.png",
         description: "In this course you will learn the essentials of the StarFX Premier Design Studio 2.0 Jewellery Edition software…",
         imageUrl: "/assets/images/starfx.png",
-        url: ""
+        url: "/lasers/starfx-premier-design-studio-2-0-jewelry-edition-video-tutorial",
+        buttonText: "View Video"
     },
 
 ]
