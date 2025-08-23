@@ -345,7 +345,7 @@ export const threeDSoftwares = [
         description: "CounterSketch is one of the best sales aids in the world. With a library of over 2,500 designs that each have around 300 variations plus another library of 1,500 components you can use to add to existing designs or build up from scratch. Partnered with Stuller who will manufacture your jewellery and deliver in around 15-days this makes for an attractive and easy to use sales tool.",
         imageUrl: "/assets/images/CounterSketch.png",
         buttonText: "View Software",
-        url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/"
+        url: "/3d-software/3d-software-for-jewellers/countersketch"
     },
 
 ]
@@ -488,6 +488,27 @@ export const laserStars = [
         imageUrl: "/assets/images/starfx.png",
         url: "/lasers/starfx-premier-design-studio-2-0-jewelry-edition-video-tutorial",
         buttonText: "View Video"
+    },
+
+]
+export const LaserWeldersForTheMedicalIndustry = [
+    {
+        id: "1",
+        logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
+        title: "NEW for 2023 – Lab Diamond Detectors for Jewellers",
+        description: "The most reliable way to determine whether a diamond is natural or lab-grown is to use a CVD and HPHT detector from Yehuda Diamond. It tests how the rock reacts to UV rays by measuring the fluorescence of the gemstone. The lab can determine if it is a natural diamond,...",
+        imageUrl: "/assets/images/yehunda-products.png",
+        url: "/lasers/laser-marking-and-engraving-for-jewellers",
+        buttonText: "View Lasers Marking & engraving"
+    },
+    {
+        id: "2",
+        title: "Super-deduction for companies investing in new plant and machinery",
+        logoUrl: "/assets/images/LaserStar_Logo_Red-1200px.png",
+        description: "The Chancellor has announced a new tax deduction aimed to stimulate investment by UK companies. Between 1 April 2021 and 31 March 2023, companies will be able to claim a corporation tax deduction at 130% of qualifying expenditure. This has not been extended to...",
+        imageUrl: "/assets/images/GVUK-Montage-980x730.jpg",
+        url: "/lasers/laser-welders-for-jewellers",
+        buttonText: "View Lasers Welding"
     },
 
 ]
