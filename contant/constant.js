@@ -239,6 +239,15 @@ export const jewelleryIndustry = [
     },
     {
         id: "4",
+        title: "Introducing the next generation of precision 3D scanning",
+        logoUrl: "/assets/images/d3ds_logo.gif",
+        description: "With a 200 x 100 mm scanning area, the D3DS is purpose-built to capture the finest details of small and intricate structures with exceptional accuracy. From dental models and prosthetics to custom medical devices, it delivers reliable, high-resolution 3D data that supports both research and clinical workflows. Designed and manufactured in Ukraine, the D3DS combines advanced scanning technology with dependable performance—helping medical professionals and researchers improve outcomes through digital precision.",
+        imageUrl: "/assets/images/IMG_2300-scaled.png",
+        buttonText: "View Scanner",
+        url: "/industry-solutions/laser-mark-ing-engraving-for-industry/d3d-s-scanners-precision-technology-for-the-jewellery-industry"
+    },
+    {
+        id: "5",
         title: "Laser Repair & Servicing",
         logoUrl: "/assets/images/coherent-logo.png",
         description: "Rofin lasers are known for reliability and precision. Now under the Coherent brand, they’re still made in-house to ensure top quality and performance. We offer on-site servicing to minimize downtime and keep your laser welder running at peak performance. With our comprehensive service and warranty packages, you can have complete confidence in the longevity and reliability of your equipment—ensuring it delivers consistent results for years to come.",
@@ -247,7 +256,7 @@ export const jewelleryIndustry = [
         url: "/contact"
     },
     {
-        id: "5",
+        id: "6",
         title: "3D design software for Jewellers",
         description: "Take your jewellery design to the next level with MatrixGold and CounterSketch—two powerful, dynamic 3D CAD solutions built specifically for jewellers. Featuring advanced parametric controls, these tools give you complete creative freedom and precision. Create stunning visuals and professional-quality videos that not only enhance your design process but also serve as impactful marketing assets to showcase to clients.",
         imageUrl: "/assets/images/3d-software.png",
@@ -277,6 +286,15 @@ export const medicalIndustry = [
     },
     {
         id: "3",
+        title: "Introducing the next generation of precision 3D scanning",
+        logoUrl: "/assets/images/d3ds_logo.gif",
+        description: "With a 200 x 100 mm scanning area, the D3DS is purpose-built to capture the finest details of small and intricate structures with exceptional accuracy. From dental models and prosthetics to custom medical devices, it delivers reliable, high-resolution 3D data that supports both research and clinical workflows. Designed and manufactured in Ukraine, the D3DS combines advanced scanning technology with dependable performance—helping medical professionals and researchers improve outcomes through digital precision.",
+        imageUrl: "/assets/images/IMG_2300-scaled.png",
+        buttonText: "View Scanner",
+        url: "/industry-solutions/medical/d3d-s-scanners-precision-scanning-for-medical-applications"
+    },
+    {
+        id: "4",
         title: "3D Scanners for Orthodontics, Dentists & Dental Labs",
         logoUrl: "/assets/images/Thunk-3D-Logo.png",
         description: "High precision fast scanning From Thunk3D. 0.01mm accuracy with a CMOS 1.31mp sensor, a 16mm 5mp lens and a 150mm scan area. This scanner comes with its own software for auto filling for water-tight stl files, essential for 3D printing.",
@@ -285,7 +303,7 @@ export const medicalIndustry = [
         url: "/3d-scanners/3d-scanner-for-orthodontics-dentists-and-dental-labs/"
     },
     {
-        id: "4",
+        id: "5",
         title: "World Leading in Fume and Dust Extraction",
         logoUrl: "/assets/images/BOFA-Logo.png",
         description: "BOFA International are the market leader in the fume extraction industry. They have gained global recognition for the design and manufacture of their innovative and powerful fume extraction systems, suitable for the jewellery industry.",
@@ -294,7 +312,7 @@ export const medicalIndustry = [
         url: "/extraction/extraction-for-jewellers/"
     },
     {
-        id: "5",
+        id: "6",
         title: "Laser wires with conformity certificates",
         logoUrl: "/assets/images/Improbond-Logo.png",
         description: "High grade component assured laser wires for any application. Matching materials is essential, and all our wires are sent out with conformity certificates and each wire has lasered the material code.",
@@ -442,6 +460,15 @@ export const industrial = [
     },
     {
         id: "4",
+        title: "Introducing the next generation of precision 3D scanning",
+        logoUrl: "/assets/images/d3ds_logo.gif",
+        description: "With a 200 x 100 mm scanning area, the D3DS is purpose-built to capture the finest details of small and intricate structures with exceptional accuracy. From dental models and prosthetics to custom medical devices, it delivers reliable, high-resolution 3D data that supports both research and clinical workflows. Designed and manufactured in Ukraine, the D3DS combines advanced scanning technology with dependable performance—helping medical professionals and researchers improve outcomes through digital precision.",
+        imageUrl: "/assets/images/IMG_2300-scaled.png",
+        buttonText: "View Scanner",
+        url: "/industry-solutions/tooling-and-engineering/d3d-s-scanners-precision-scanning-for-industrial-applications"
+    },
+    {
+        id: "5",
         title: "Fume & Dust Extraction for Tooling & Engineering",
         logoUrl: "/assets/images/BOFA-Logo.png",
         description: "BOFA International are the market leader in the fume extraction industry. They have gained global recognition for the design and manufacture of their innovative and powerful fume extraction systems, suitable for the Tooling & Engineering industries.",
@@ -450,7 +477,7 @@ export const industrial = [
         url: "/extraction/extraction-for-jewellers/"
     },
     {
-        id: "5",
+        id: "6",
         title: "Laser wires with conformity certificates",
         logoUrl: "/assets/images/Improbond-Logo.png",
         description: "High grade component assured laser wires for any application. Matching materials is essential, and all our wires are sent out with conformity certificates and each wire has lasered the material code.",

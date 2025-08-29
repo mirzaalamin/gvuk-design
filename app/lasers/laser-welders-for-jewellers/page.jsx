@@ -17,8 +17,8 @@ const page = async () => {
             {/* Section 1 Start */}
             <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
                 <div className="container">
-                    <Hero title="Laser Marking and Engraving for Jewellers" description="Precision laser welding and engraving with LaserStar and Coherent. Full training and support to ensure you maximise your ROI. Full UK training and support provided."
-                        imgUrl="/assets/images/Laser-welding.png"
+                    <Hero title="Laser Welders for Jewellers" description="Precision lasers for high-performance welding on precious and non-precious metals. Now with optional expert training modules with LaserStar Education. Optional service and maintenance plan or DIY with tutorial help guide."
+                        imgUrl="/assets/images/iweld-993.png"
                         titleColor="text-primary"
                         descriptionColor="text-[#444444]"
                         logoUrl="/assets/images/LaserStar_Logo_Red-1200px.png"

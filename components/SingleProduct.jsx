@@ -1,10 +1,16 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
 import { pages } from '@/contant/constant'
+import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 
 const SingleProduct = ({ content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }) => {
+    const router = useRouter()
+
     return (
+
         <div className="flex flex-col-reverse lg:flex-row gap-10  py-12">
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
                 <div className="flex flex-col gap-5">
@@ -27,19 +33,25 @@ const SingleProduct = ({ content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }
                     <Button primary url={pages.CONTACT} otherClasses="text-[13px]">
                         CONTACT US FOR MORE INFORMATION
                     </Button>
+
+                    <Link href="#" onClick={(e) => { e.preventDefault(); router.back(); }} className="text-primary font-medium">
+                        {`<< Back`}
+                    </Link>
                 </div>
             </div>
             <div className="flex flex-1 items-center justify-center">
-                <Image
+                {imageUrl && (
 
-                    src={imageUrl}
-                    alt='Engineering'
-                    quality={100}
-                    width={100}
-                    height={150}
-                    sizes="(max-width: 768px) 100vw, 100px"
-                    className='w-full lg:w-[400px]'
-                />
+                    <Image
+                        src={imageUrl}
+                        alt='Engineering'
+                        quality={100}
+                        width={100}
+                        height={150}
+                        sizes="(max-width: 768px) 100vw, 100px"
+                        className='w-full lg:w-[400px]'
+                    />
+                )}
             </div>
         </div>
     )
