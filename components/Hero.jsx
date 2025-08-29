@@ -32,7 +32,7 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                         quality={100}
                         width={500}
                         height={250}
-                        className='w-full'
+                        className='w-full lg:w-[400px]'
                         sizes="(max-width: 768px) 100vw, 400px"
                     />
                 </div>

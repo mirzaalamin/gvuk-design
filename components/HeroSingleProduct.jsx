@@ -32,7 +32,7 @@ const HeroSingleProduct = ({ title, description, imgUrl, titleColor, description
                         quality={100}
                         width={800}
                         height={350}
-                        className='w-full lg:w-[400px0] h-full lg:h-auto object-cover'
+                        className='w-full lg:w-[400px] h-full lg:h-auto object-cover'
                         sizes="(max-width: 768px) 100vw, 800px"
                     />
                 </div>
