@@ -23,7 +23,7 @@ const page = async () => {
             {/* Section 2 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
-                    {panels.map((panel) => (
+                    {panels.reverse().map((panel) => (
                         <Panel panel={panel} key={panel.id} />
                     ))}
                 </div>

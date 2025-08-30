@@ -3,6 +3,7 @@ import HeroSingleProduct from '@/components/HeroSingleProduct'
 import SingleProduct from '@/components/SingleProduct'
 import { getSingleProduct } from '@/lib/actions/actions'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
 import React from 'react'
 
 const page = async ({ params }) => {
