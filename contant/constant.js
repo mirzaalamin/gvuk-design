@@ -61,6 +61,26 @@ export const navItems = [
                 url: "/3d-scanners/3d-scanners-for-engineers",
                 icon: ""
             },
+            {
+                name: "D3D-s Scanners for the Jewellery Industry",
+                url: "/industry-solutions/laser-mark-ing-engraving-for-industry/d3d-s-scanners-precision-technology-for-the-jewellery-industry",
+                icon: ""
+            },
+            {
+                name: "D3D-s Scanners for Medical Applications",
+                url: "/industry-solutions/medical/d3d-s-scanners-precision-scanning-for-medical-applications",
+                icon: ""
+            },
+            {
+                name: "D3D-s Scanners for Industrial Applications",
+                url: "/industry-solutions/d3d-s-scanners-precision-scanning-for-industrial-applications",
+                icon: ""
+            },
+            {
+                name: "D3D-s Scanners for Model Makers",
+                url: "/industry-solutions/medical/d3d-s-scanners-precision-scanning-for-model-makers",
+                icon: ""
+            },
         ]
     },
     {
@@ -447,7 +467,7 @@ export const industrial = [
         description: "Laser marking and engraving for permanent identification, from QR and bar codes to non-abrasive marking which offers degreation resistant surface identification.",
         imageUrl: "/assets/images/laser-marking.png",
         buttonText: "View Products",
-        url: "/industry-solutions/laser-marking-engraving-for-industry/"
+        url: "/industry-solutions/laser-marking-engraving-for-industry"
     },
     {
         id: "3",
