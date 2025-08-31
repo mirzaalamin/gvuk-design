@@ -1,7 +1,5 @@
 import Panel from '@/components/Cards/Panel'
-import PostCard from '@/components/Cards/PostCard'
 import Hero from '@/components/Hero'
-import { industrial, medicalIndustry } from '@/contant/constant'
 import { getPanelsByCategory } from '@/lib/actions/actions'
 import React from 'react'
 
