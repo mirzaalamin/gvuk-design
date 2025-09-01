@@ -1,10 +1,12 @@
 import Button from '@/components/Button'
+import Panel from '@/components/Cards/Panel'
 import PostCard from '@/components/Cards/PostCard'
 import Hero from '@/components/Hero'
-import { threeDSoftwares } from '@/contant/constant'
+import { getPanelsByCategory } from '@/lib/actions/actions'
 import React from 'react'
 
-const page = () => {
+const page = async () => {
+    const panels = await getPanelsByCategory(71)
     return (
         <div>
             {/* Section 1 Start */}
@@ -32,8 +34,8 @@ const page = () => {
             {/* Section 3 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
-                    {threeDSoftwares.map((post) => (
-                        <PostCard {...post} key={post.id} />
+                    {panels.reverse().map((panel) => (
+                        <Panel panel={panel} key={panel.id} />
                     ))}
                 </div>
             </div>

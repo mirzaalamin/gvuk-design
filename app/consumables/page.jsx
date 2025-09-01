@@ -1,10 +1,10 @@
-import Button from '@/components/Button'
-import PostCard from '@/components/Cards/PostCard'
+import Panel from '@/components/Cards/Panel'
 import Hero from '@/components/Hero'
-import { consumables } from '@/contant/constant'
+import { getPanelsByCategory } from '@/lib/actions/actions'
 import React from 'react'
 
-const page = () => {
+const page = async () => {
+    const panels = await getPanelsByCategory(73)
     return (
         <div>
             {/* Section 1 Start */}
@@ -23,8 +23,8 @@ const page = () => {
             {/* Section 2 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
-                    {consumables.map((post) => (
-                        <PostCard {...post} key={post.id} />
+                    {panels.map((panel) => (
+                        <Panel panel={panel} key={panel.id} />
                     ))}
                 </div>
             </div>

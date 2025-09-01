@@ -12,7 +12,6 @@ const page = async () => {
 
     const products = await getProductsByCategory(59)
 
-    console.log(products)
     return (
         <div>
             {/* Section 1 Start */}

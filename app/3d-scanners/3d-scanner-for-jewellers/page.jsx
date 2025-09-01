@@ -1,6 +1,4 @@
 import Button from '@/components/Button'
-import PostCard from '@/components/Cards/PostCard'
-import RecentPostCard from '@/components/Cards/RecentPostCard'
 import ImageSlider from '@/components/Carousel/ImageSlider'
 import Hero from '@/components/Hero'
 import VideoSidebar from '@/components/VideoSidebar'
