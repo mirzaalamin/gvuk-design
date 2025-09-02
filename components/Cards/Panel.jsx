@@ -18,7 +18,9 @@ const Panel = ({ panel }) => {
                             className="w-[150px] dark:invert"
                         />
                     )}
-                    <h2 className="h3 text-primary">{title}</h2>
+                    {title && (
+                        <h2 className="h3 text-primary">{title}</h2>
+                    )}
                     <p className="post-description" dangerouslySetInnerHTML={{ __html: content }}></p>
                     <Button primary url={button_url} otherClasses="uppercase text-[13px]">
                         {button_text}
