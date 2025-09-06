@@ -7,6 +7,28 @@ import { laserStars } from '@/contant/constant'
 import { getNews } from '@/lib/actions/actions'
 import React from 'react'
 
+export const metadata = {
+    title: "News | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/news/",
+    },
+    openGraph: {
+        title: "News | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/news/",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
+
 const page = async () => {
 
     const news = await getNews()

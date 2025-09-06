@@ -5,6 +5,31 @@ import Hero from '@/components/Hero'
 import { laserStars } from '@/contant/constant'
 import React from 'react'
 
+// app/contact/page.tsx (or page.js)
+
+export const metadata = {
+    title: "Contact | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/contact/",
+    },
+    openGraph: {
+        title: "Contact | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/contact/",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
+
+
 const page = () => {
     return (
         <div>

@@ -8,6 +8,27 @@ import { industrySolutions, pages, whatsNew } from '@/contant/constant'
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+    title: "Yehuda | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/yehuda/",
+    },
+    openGraph: {
+        title: "Yehuda | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/yehuda/",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
 const page = () => {
     return (
         <div>

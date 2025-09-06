@@ -8,6 +8,27 @@ import { LaserWeldersForTheMedicalIndustry, pages } from '@/contant/constant'
 import { getProductsByCategory } from '@/lib/actions/actions'
 
 
+export const metadata = {
+    title: "Laser Cleaning for Industry | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/industry-solutions/laser-cleaning-for-industry",
+    },
+    openGraph: {
+        title: "Laser Cleaning for Industry | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/industry-solutions/laser-cleaning-for-industry",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
 const page = async () => {
 
     const products = await getProductsByCategory(64)

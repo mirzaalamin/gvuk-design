@@ -3,6 +3,28 @@ import Hero from '@/components/Hero'
 import { getPanelsByCategory } from '@/lib/actions/actions'
 import React from 'react'
 
+export const metadata = {
+    title: "Tooling & Engineering | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/industry-solutions/tooling-and-engineering/",
+    },
+    openGraph: {
+        title: "Tooling & Engineering | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/industry-solutions/tooling-and-engineering/",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
+
 const page = async () => {
     const panels = await getPanelsByCategory(67)
     return (

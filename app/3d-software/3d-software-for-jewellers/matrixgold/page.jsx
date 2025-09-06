@@ -76,6 +76,28 @@ const sideBarVideos = [
     }
 ]
 
+export const metadata = {
+    title: "MatrixGold | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/3d-software/3d-software-for-jewellers/matrixgold",
+    },
+    openGraph: {
+        title: "MatrixGold | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/3d-software/3d-software-for-jewellers/matrixgold",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
+
 const page = () => {
 
     return (

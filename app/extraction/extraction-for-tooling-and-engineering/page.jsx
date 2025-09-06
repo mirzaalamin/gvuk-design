@@ -8,6 +8,27 @@ import { laserStars, pages } from '@/contant/constant'
 import { getProductsByCategory } from '@/lib/actions/actions'
 
 
+export const metadata = {
+    title: "Extraction for Tooling & Engineering | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/extraction/extraction-for-tooling-and-engineering",
+    },
+    openGraph: {
+        title: "Extraction for Tooling & Engineering | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/extraction/extraction-for-tooling-and-engineering",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
 const page = async () => {
 
     const products = await getProductsByCategory(59)

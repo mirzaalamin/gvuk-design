@@ -4,6 +4,29 @@ import SinglePost from '@/components/SinglePost'
 import { laserStars } from '@/contant/constant'
 import React from 'react'
 
+
+export const metadata = {
+    title: "FiberCube® Industrial Marking + Engraving System 3801 Series | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/lasers/industrial-marking",
+    },
+    openGraph: {
+        title: "FiberCube® Industrial Marking + Engraving System 3801 Series | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/lasers/industrial-marking",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
+
 const page = () => {
     const descriptionText = (
         <ol>

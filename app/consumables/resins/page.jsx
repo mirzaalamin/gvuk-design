@@ -3,7 +3,30 @@ import HeroSingleProduct from '@/components/HeroSingleProduct'
 import React from 'react'
 
 
+export const metadata = {
+    title: "Resins | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/resins/",
+    },
+    openGraph: {
+        title: "Resins | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/resins/",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
 const page = () => {
+
+
 
     return (
         <div>

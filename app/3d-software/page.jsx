@@ -3,6 +3,28 @@ import Hero from '@/components/Hero'
 import Image from 'next/image'
 import React from 'react'
 
+
+export const metadata = {
+    title: "3D Software | GVUK Design",
+    description:
+        "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
+    alternates: {
+        canonical: "https://www.gvukdesign.co.uk/3d-software/",
+    },
+    openGraph: {
+        title: "3D Software | GVUK Design",
+        url: "https://www.gvukdesign.co.uk/3d-software/",
+        siteName: "GVUK Design",
+        locale: "en_GB",
+        type: "article",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@gvukdesign",
+    },
+    metadataBase: new URL("https://www.gvukdesign.co.uk"),
+};
+
 const page = () => {
     return (
         <div>

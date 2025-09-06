@@ -28,7 +28,7 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                 <div className="flex-1 flex hero-gradient items-center justify-center">
                     <Image
                         src={imgUrl}
-                        alt='Laser star'
+                        alt={title}
                         quality={100}
                         width={500}
                         height={250}

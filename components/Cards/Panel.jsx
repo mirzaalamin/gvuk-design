@@ -31,7 +31,7 @@ const Panel = ({ panel }) => {
                 <Image
 
                     src={imageUrl}
-                    alt='Engineering'
+                    alt={title}
                     quality={100}
                     width={100}
                     height={150}
