@@ -4,6 +4,35 @@ import { formatDate } from '@/lib/utils'
 import { notFound } from 'next/navigation'
 import React from 'react'
 
+export async function generateMetadata({ params }) {
+    const { slug } = await params
+    const news = await getSingleNews(slug)
+
+    if (!news) return notFound()
+
+    const { title, content, } = news;
+
+    return {
+        title: `${title} | GVUK Design`,
+        description: content.slice(0, 100),
+        alternates: {
+            canonical: `https://www.gvukdesign.co.uk/news/${slug}`,
+        },
+        openGraph: {
+            title,
+            url: `https://www.gvukdesign.co.uk/news/${slug}`,
+            siteName: "GVUK Design",
+            locale: "en_GB",
+            type: "article",
+        },
+        twitter: {
+            card: "summary_large_image",
+            site: "@gvukdesign",
+        },
+        metadataBase: new URL("https://www.gvukdesign.co.uk"),
+    };
+}
+
 const page = async ({ params }) => {
     const { slug } = await params
     const news = await getSingleNews(slug)

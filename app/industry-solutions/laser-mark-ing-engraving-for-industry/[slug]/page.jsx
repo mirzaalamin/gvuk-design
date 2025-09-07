@@ -5,6 +5,36 @@ import { getSingleProduct } from '@/lib/actions/actions'
 import Link from 'next/link'
 import React from 'react'
 
+
+export async function generateMetadata({ params }) {
+    const { slug } = await params
+    const product = await getSingleProduct(slug)
+
+    if (!product) return notFound()
+
+    const { title, content, } = product;
+
+    return {
+        title: `${title} | GVUK Design`,
+        description: content.slice(0, 100),
+        alternates: {
+            canonical: `https://www.gvukdesign.co.uk/industry-solutions/laser-mark-ing-engraving-for-industry/${slug}`,
+        },
+        openGraph: {
+            title,
+            url: `https://www.gvukdesign.co.uk/industry-solutions/laser-mark-ing-engraving-for-industry/${slug}`,
+            siteName: "GVUK Design",
+            locale: "en_GB",
+            type: "article",
+        },
+        twitter: {
+            card: "summary_large_image",
+            site: "@gvukdesign",
+        },
+        metadataBase: new URL("https://www.gvukdesign.co.uk"),
+    };
+}
+
 const page = async ({ params }) => {
     const { slug } = await params
     const product = await getSingleProduct(slug)
@@ -32,7 +62,7 @@ const page = async ({ params }) => {
             {/* Section 2 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
-                    <SingleProduct content={content}
+                    <SingleProduct title={title} content={content}
                         sheetEditionUrl={sheetEditionUrl}
                         sheetUrl={sheetUrl}
                     />

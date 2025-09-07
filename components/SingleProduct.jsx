@@ -6,7 +6,7 @@ import { pages } from '@/contant/constant'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
-const SingleProduct = ({ content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }) => {
+const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }) => {
     const router = useRouter()
 
     return (
@@ -44,7 +44,7 @@ const SingleProduct = ({ content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }
 
                     <Image
                         src={imageUrl}
-                        alt='Engineering'
+                        alt={title}
                         quality={100}
                         width={100}
                         height={150}
