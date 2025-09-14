@@ -21,7 +21,7 @@ const TitleVideoSection = ({ popup, title, description, videoUrl, reverse }) => 
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
 
                 <div className="flex flex-col gap-5 text-center">
-                    <h2 className="h2 text-primary">{title}</h2>
+                    <h2 className="h2 text-primary font-light">{title}</h2>
                     <p className="body-text">{description}</p>
                 </div>
             </div>

@@ -10,11 +10,11 @@ export const metadata = {
     description:
         "Your Gemvision, EnvisionTEC and Coherent–Rofin specialist distributor for the UK and Ireland",
     alternates: {
-        canonical: "https://www.gvukdesign.co.uk/industry-solutions/laser-mark-ing-engraving-for-industry",
+        canonical: "https://www.gvukdesign.co.uk/industry-solutions/jewellery",
     },
     openGraph: {
         title: "Jewellery | GVUK Design",
-        url: "https://www.gvukdesign.co.uk/industry-solutions/laser-mark-ing-engraving-for-industry",
+        url: "https://www.gvukdesign.co.uk/industry-solutions/jewellery",
         siteName: "GVUK Design",
         locale: "en_GB",
         type: "article",
@@ -46,7 +46,7 @@ const page = async () => {
             {/* Section 2 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
-                    {panels.reverse().map((panel) => (
+                    {panels.map((panel) => (
                         <Panel panel={panel} key={panel.id} />
                     ))}
                 </div>

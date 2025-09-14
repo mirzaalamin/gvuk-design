@@ -33,11 +33,11 @@ body {
     }
 
     .body-text {
-        @apply font-openSans text-[16px] text-[#777777] dark:text-white leading-8
+        @apply font-openSans text-[18px] text-[#777777] dark:text-white leading-8
     }
 
     .post-description {
-        @apply font-openSans text-[14px] text-[#777777] dark:text-white leading-8
+        @apply font-openSans text-[14px] text-[#444444] dark:text-white leading-6
     }
 
     .hero-gradient {
@@ -78,7 +78,7 @@ body {
     }
 
     .hero-title {
-        @apply font-openSans text-[28px] lg:text-[36px] font-light leading-normal
+        @apply font-openSans text-[28px] lg:text-[34px] font-light leading-normal
     }
 
     .h2 {

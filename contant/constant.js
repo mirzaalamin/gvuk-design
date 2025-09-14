@@ -6,7 +6,7 @@ export const navItems = [
         icon: "",
         subItem: [{
             name: "Jewellery",
-            url: "/industry-solutions/laser-mark-ing-engraving-for-industry",
+            url: "/industry-solutions/jewellery",
             icon: ""
         },
         {
@@ -63,7 +63,7 @@ export const navItems = [
             },
             {
                 name: "D3D-s Scanners for the Jewellery Industry",
-                url: "/industry-solutions/laser-mark-ing-engraving-for-industry/d3d-s-scanners-precision-technology-for-the-jewellery-industry",
+                url: "/industry-solutions/jewellery/d3d-s-scanners-precision-technology-for-the-jewellery-industry",
                 icon: ""
             },
             {
@@ -127,7 +127,7 @@ export const pages = {
     LASERS_WELDING: "/lasers/laser-cutting-engraving",
     INDUSTRY_SOLUTIONS: "/industry-solutions",
     INDUSTRIAL: "/industry-solutions/tooling-and-engineering",
-    JEWELLERY: "/industry-solutions/laser-mark-ing-engraving-for-industry",
+    JEWELLERY: "/industry-solutions/jewellery",
     MEDICAL: "/industry-solutions/medical",
 }
 
@@ -204,7 +204,7 @@ export const whatsNew = [
 //         title: "Jewellery",
 //         description: "The finest LaserStar laser welders and engravers to MatrixGold the No.1 jewellery design program. Plus Yehuda’s best-selling lab-diamond detectors and the great value 3D scanner from Thunk3D working to improve your working to save you time and money.",
 //         imageUrl: "/assets/images/jewellery-solutions.svg",
-//         url: "/industry-solutions/laser-mark-ing-engraving-for-industry"
+//         url: "/industry-solutions/jewellery"
 //     },
 //     {
 //         id: "2",
@@ -264,7 +264,7 @@ export const whatsNew = [
 //         description: "With a 200 x 100 mm scanning area, the D3DS is purpose-built to capture the finest details of small and intricate structures with exceptional accuracy. From dental models and prosthetics to custom medical devices, it delivers reliable, high-resolution 3D data that supports both research and clinical workflows. Designed and manufactured in Ukraine, the D3DS combines advanced scanning technology with dependable performance—helping medical professionals and researchers improve outcomes through digital precision.",
 //         imageUrl: "/assets/images/IMG_2300-scaled.png",
 //         buttonText: "View Scanner",
-//         url: "/industry-solutions/laser-mark-ing-engraving-for-industry/d3d-s-scanners-precision-technology-for-the-jewellery-industry"
+//         url: "/industry-solutions/jewellery/d3d-s-scanners-precision-technology-for-the-jewellery-industry"
 //     },
 //     {
 //         id: "5",
@@ -594,7 +594,7 @@ export const logos = [
     },
     {
         id: "7",
-        logoUrl: "/assets/images/yehuda-logo.png",
+        logoUrl: "/assets/images/rsz_yehuda-logo.png",
         url: "",
         name: "yehuda"
     },

@@ -35,7 +35,7 @@ export default function NavigationBar() {
                   opacity-0 invisible group-hover:opacity-100 group-hover:visible
                   transition-all duration-300 ease-in-out
                   translate-y-2 group-hover:translate-y-0
-                  z-10 sub-menu-section !border-t-2 !border-red-700 bg-white"
+                  z-10 sub-menu-section !border-t-2 !border-[#9d3189] bg-white"
                                 >
                                     {item.subItem.map((sub) => {
                                         const isActive = pathname === sub.url;

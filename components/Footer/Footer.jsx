@@ -55,20 +55,20 @@ const Footer = () => {
                             <Image
                                 src="/assets/images/naj-member-logo.png"
                                 alt='Naj member logo'
-                                height={80}
-                                width={80}
+                                height={50}
+                                width={50}
                             />
                             <Image
                                 src="/assets/images/mta-logo.png"
                                 alt='MTA logo'
-                                height={80}
+                                height={50}
                                 width={80}
                             />
                             <Image
                                 src="/assets/images/cmj-logo.png"
                                 alt='CMJ logo'
-                                height={80}
-                                width={80}
+                                height={50}
+                                width={50}
                             />
                         </div>
                         <p className='footer-text'>We are proud to be a member of The

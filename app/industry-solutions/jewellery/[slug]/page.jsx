@@ -18,11 +18,11 @@ export async function generateMetadata({ params }) {
         title: `${title} | GVUK Design`,
         description: content.slice(0, 100),
         alternates: {
-            canonical: `https://www.gvukdesign.co.uk/industry-solutions/laser-mark-ing-engraving-for-industry/${slug}`,
+            canonical: `https://www.gvukdesign.co.uk/industry-solutions/jewellery/${slug}`,
         },
         openGraph: {
             title,
-            url: `https://www.gvukdesign.co.uk/industry-solutions/laser-mark-ing-engraving-for-industry/${slug}`,
+            url: `https://www.gvukdesign.co.uk/industry-solutions/jewellery/${slug}`,
             siteName: "GVUK Design",
             locale: "en_GB",
             type: "article",

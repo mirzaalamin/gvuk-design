@@ -15,9 +15,17 @@ const LogoCarousel = () => {
         <div className='logos'>
             <div className='logos-slider'>
                 <Marquee pauseOnHover gradient gradientColor={gradientColor} gradientWidth={150} style={{ width: 1180 }}>
-                    {logos.map((logo) => (
-                        <Image key={logo.id} src={logo.logoUrl} alt={logo.name} height={80} width={120} className='m-10 dark:invert' />
-                    ))}
+                    {logos.map((logo) => {
+                        if (logo.name === "yehuda") {
+                            return (
+                                <Image key={logo.id} src={logo.logoUrl} alt={logo.name} height={80} width={70} className='m-10 dark:invert' />
+                            )
+                        }
+
+                        return (
+                            <Image key={logo.id} src={logo.logoUrl} alt={logo.name} height={80} width={140} className='m-10 dark:invert' />
+                        )
+                    })}
                 </Marquee>
             </div>
         </div>

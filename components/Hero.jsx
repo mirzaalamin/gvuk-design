@@ -9,7 +9,7 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
     return (
         <div className="flex flex-col lg:flex-row py-8 lg:py-0 gap-10">
             <div className="flex flex-1 flex-col lg:pt-0 gap-5 justify-center ">
-                <div className="flex flex-col gap-5 lg:py-[100px]">
+                <div className="flex flex-col gap-5 lg:py-[65px]">
                     {logoUrl && (
                         <Image
                             src={logoUrl}
@@ -32,7 +32,7 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                         quality={100}
                         width={500}
                         height={250}
-                        className='w-full h-auto'
+                        className='w-full h-full object-cover'
                         sizes="(max-width: 768px) 100vw, 400px"
                     />
                 </div>
