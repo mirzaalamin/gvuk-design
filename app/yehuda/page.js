@@ -36,7 +36,7 @@ const page = () => {
             <div className='dark:bg-gray-800 primary-gradient pt-[100px]'>
                 <div className="container">
                     <Hero title="Yehuda CVD and HPHT lab grown diamond detector" description="Uses the same 100% detection rate technology as the Sherlock Holmes 2.0"
-                        imgUrl="/assets/images/yehunda-products.png"
+                        imgUrl="/assets/images/Sherlok-Watson-AI-2025-scaled.png"
                         titleColor="text-primary"
                     />
                 </div>
@@ -77,6 +77,7 @@ const page = () => {
                             REGISTER YOUR INTEREST FOR INFORMATION
                         </Button>
                     </div>
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/1112931588?h=5289266250" width="640" frameBorder="0" allowFullScreen className='mt-8 lg:mt-16 w-full h-[250px] lg:h-[650]'></iframe>
                 </div>
             </div>
             {/* Section 2 End */}
@@ -90,7 +91,7 @@ const page = () => {
 
                         <VideoCard
                             title="DR. WATSON up to 8 rings at a time"
-                            imageUrl="/assets/images/yehunda-video.png"
+                            imageUrl="/assets/images/Watson-2025.687.png"
                             price="£2,395"
                             buttonText="CONTACT US FOR MORE INFORMATION"
                             buttonUrl={pages.CONTACT}
@@ -116,7 +117,7 @@ const page = () => {
 
                         <VideoCard
                             title="SHERLOCK 4.0 up to 27 rings at a time"
-                            imageUrl="/assets/images/yehunda2-video.png"
+                            imageUrl="/assets/images/Sherlok-2025-open-1.png"
                             price="£5,795"
                             buttonText="CONTACT US FOR MORE INFORMATION"
                             buttonUrl={pages.CONTACT}
