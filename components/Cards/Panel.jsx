@@ -9,14 +9,16 @@ const Panel = ({ panel }) => {
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
                 <div className="flex flex-col gap-5">
                     {logoUrl && (
-                        <Image
-                            src={logoUrl}
-                            alt='Logo'
-                            quality={100}
-                            width={100}
-                            height={100}
-                            className="w-[150px] dark:invert"
-                        />
+                        <div className="flex flex-wrap gap-2">
+                            <Image
+                                src={logoUrl}
+                                alt='Logo'
+                                quality={100}
+                                width={100}
+                                height={100}
+                                className="w-[120px] h-[60px] object-contain dark:invert"
+                            />
+                        </div>
                     )}
                     {title && (
                         <h2 className="h3 text-primary">{title}</h2>
@@ -35,7 +37,7 @@ const Panel = ({ panel }) => {
                     quality={100}
                     width={100}
                     height={150}
-                    className="w-full"
+                    className="w-full h-[300px] object-contain"
                     sizes="(max-width: 768px) 100vw, 150px"
                 />
             </div>

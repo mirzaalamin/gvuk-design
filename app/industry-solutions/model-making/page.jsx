@@ -34,11 +34,12 @@ const page = async () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
+            <div className='bg-primary dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
                 <div className="container">
                     <Hero title="Model Making" description="EnvisionTEC’s RC series is used by Games Workshop, Rob MacFarlane and a host of other leading modellers for super fine and smooth models."
                         imgUrl="/assets/images/model-makers.png"
-                        titleColor="text-primary"
+                        titleColor="text-white"
+                        descriptionColor="!text-white"
                     />
                 </div>
             </div>

@@ -56,7 +56,7 @@ const page = () => {
                             <div className="flex flex-col gap-5">
 
                                 <h2 className="h3 text-primary">3D Software for Jewellers</h2>
-                                <p className="post-description">Ground-braking Dynamic MatrixGold and parametric CounterSketch give you total control of all your designs, with superb imaging and video output doubling as a professional marketing tool.</p>
+                                <p className="post-description font-light">Ground-braking Dynamic MatrixGold and parametric CounterSketch give you total control of all your designs, with superb imaging and video output doubling as a professional marketing tool.</p>
                                 <Button primary url="/3d-software/3d-software-for-jewellers/" otherClasses="uppercase text-[13px]">
                                     View Software
                                 </Button>
