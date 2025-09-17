@@ -40,9 +40,11 @@ const page = async ({ params }) => {
     const { slug } = await params
     const product = await getSingleProduct(slug)
 
+
+
     if (!product) return notFound()
 
-    const { id, title, logoUrl, thumbnail, content, description, date, sheetEditionUrl, sheetUrl } = product;
+    const { id, title, logoUrl, thumbnail, content, description, date, sheetEditionUrl, sheetUrl, right_side_video } = product;
 
     return (
         <div>
@@ -66,6 +68,7 @@ const page = async ({ params }) => {
                     <SingleProduct title={title} content={content}
                         sheetEditionUrl={sheetEditionUrl}
                         sheetUrl={sheetUrl}
+                        right_side_video={right_side_video}
                     />
 
                 </div>

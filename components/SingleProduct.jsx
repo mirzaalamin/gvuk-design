@@ -6,13 +6,13 @@ import { pages } from '@/contant/constant'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
-const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl }) => {
+const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl, right_side_video }) => {
     const router = useRouter()
 
     return (
 
         <div className="flex flex-col-reverse lg:flex-row gap-10  py-12">
-            <div className="flex flex-1 flex-col gap-5 items-center justify-center">
+            <div className="flex flex-1 flex-col gap-5">
                 <div className="flex flex-col gap-5">
                     {logoUrl && (
                         <Image
@@ -52,6 +52,10 @@ const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, she
                         className='w-full lg:w-[400px]'
                     />
                 )}
+                {right_side_video && (
+                    <video src={right_side_video} controls></video>
+                )}
+
             </div>
         </div>
     )

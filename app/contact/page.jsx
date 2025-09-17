@@ -37,8 +37,8 @@ const page = () => {
             <div className='bg-primary dark:bg-gray-800 pt-[100px]'>
                 <div className="container">
                     <Hero title="Contact us" description="Our GVUK Design team are here to help and advise on the best solution to your requirements, with full training and technical support."
-                        titleColor="text-white"
-                        descriptionColor="!text-white !font-bold"
+                        titleColor="text-white lg:!text-[36px]"
+                        descriptionColor="!text-white !font-medium"
                     />
                 </div>
             </div>

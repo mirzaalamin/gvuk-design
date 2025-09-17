@@ -66,7 +66,7 @@ const page = () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px] border-t-2 border-primary'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero
                         title="3D Scanner for Jewellers"

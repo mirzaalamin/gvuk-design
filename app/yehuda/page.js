@@ -33,7 +33,7 @@ const page = () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='dark:bg-gray-800 primary-gradient pt-[100px]'>
+            <div className='dark:bg-gray-800 primary-gradient mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero title="Yehuda CVD and HPHT lab grown diamond detector" description="Uses the same 100% detection rate technology as the Sherlock Holmes 2.0"
                         imgUrl="/assets/images/Sherlok-Watson-AI-2025-scaled.png"
