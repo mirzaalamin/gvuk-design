@@ -30,9 +30,9 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                         src={imgUrl}
                         alt={title}
                         quality={100}
-                        width={500}
-                        height={250}
-                        className='w-full h-full object-cover'
+                        width={100}
+                        height={150}
+                        className='w-full h-full object-contain'
                         sizes="(max-width: 768px) 100vw, 400px"
                     />
                 </div>

@@ -32,7 +32,7 @@ const page = async () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero title="Laser Welding, Marking &  Engraving for Jewellers" description="Precision quality YAG and Fiber laser welders and engravers for all your jewellery and watch repairs, from welding platinum to silver and stainless steel. \n 3D laser engraving includes a brilliant in-house designed and built integrated software program along with a detailed on-line training package. "
                         imgUrl="/assets/images/laserstar-marking.png"
@@ -46,6 +46,14 @@ const page = async () => {
             {/* Section 1 End */}
 
             {/* Section 2 Start */}
+            <div className='bg-white dark:bg-gray-900 pb-0 pt-16'>
+                <div className='container flex flex-col gap-10'>
+                    <p className='text-[17px] text-[#444444] dark:text-white font-light font-openSans'>Step-by-step on-line training and presets ensure you will master the art of laser engraving and welding in days, not months</p>
+                </div>
+            </div>
+            {/* Section 2 End */}
+
+            {/* Section 3 Start */}
             <div className='bg-white dark:bg-gray-900 py-16'>
                 <div className='container flex flex-col gap-10'>
                     {panels.reverse().map((panel) => (
@@ -53,7 +61,7 @@ const page = async () => {
                     ))}
                 </div>
             </div>
-            {/* Section 2 End */}
+            {/* Section 3 End */}
         </div>
     )
 }

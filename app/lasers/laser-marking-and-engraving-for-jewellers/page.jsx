@@ -37,7 +37,7 @@ const page = async () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero title="Laser Marking and Engraving for Jewellers" description="Precision laser welding and engraving with LaserStar and Coherent. Full training and support to ensure you maximise your ROI. Full UK training and support provided."
                         imgUrl="/assets/images/Laser-welding.png"

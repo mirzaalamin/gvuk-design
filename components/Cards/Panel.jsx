@@ -5,9 +5,9 @@ import Button from '../Button'
 const Panel = ({ panel }) => {
     const { id, logoUrl, title, button_text, imageUrl, content, button_url } = panel
     return (
-        <div key={id} className="flex flex-col  items-center justify-center lg:flex-row gap-16 border-t-2 border-primary dark:bg-gray-800 primary-gradient px-8 py-12">
+        <div key={id} className="flex flex-col  items-center justify-center lg:flex-row gap-10 border-t-2 border-primary dark:bg-gray-800 primary-gradient px-8 py-12">
             <div className="flex flex-1 flex-col gap-5 items-center justify-center">
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-2">
                     {logoUrl && (
                         <div className="flex flex-wrap gap-2">
                             <Image
