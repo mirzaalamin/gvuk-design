@@ -14,7 +14,7 @@ import Link from 'next/link'
 
 const MobileNav = () => {
     return (
-        <div className="lg:hidden">
+        <div className="lg:hidden nav-menu">
             <Sheet>
                 <SheetTrigger asChild>
                     <Image

@@ -4,7 +4,7 @@ import React, { Fragment } from 'react'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 
-const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUrl, logoInvert }) => {
+const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUrl, logoInvert, otherClasses }) => {
 
     return (
         <div className="flex flex-col lg:flex-row py-8 lg:py-0 gap-10">
@@ -32,7 +32,7 @@ const Hero = ({ title, description, imgUrl, titleColor, descriptionColor, logoUr
                         quality={100}
                         width={100}
                         height={150}
-                        className='w-full h-full object-contain'
+                        className={`w-full h-[300px] object-contain ${otherClasses}`}
                         sizes="(max-width: 768px) 100vw, 400px"
                     />
                 </div>

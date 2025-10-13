@@ -36,6 +36,7 @@ const page = async () => {
                         imgUrl="/assets/images/gvuk_industrial.png"
                         titleColor="text-white"
                         descriptionColor="!text-white"
+                        otherClasses="!h-full !object-cover"
                     />
                 </div>
             </div>

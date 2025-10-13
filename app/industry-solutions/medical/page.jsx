@@ -37,6 +37,7 @@ const page = async () => {
                         imgUrl="/assets/images/gvuk_medical.png"
                         titleColor="text-white"
                         descriptionColor="!text-white"
+                        otherClasses="!h-full"
                     />
                 </div>
             </div>

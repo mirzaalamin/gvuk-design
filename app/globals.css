@@ -12,6 +12,11 @@ ul {
     padding: 0px 20px;
 }
 
+.nav-menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
 .main-menu-parant {
     background-color: transparent !important;
 }
