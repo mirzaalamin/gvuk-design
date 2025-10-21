@@ -45,7 +45,7 @@ const page = async ({ params }) => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <HeroSingleProduct title={title} description={description}
                         titleColor="text-primary"
@@ -58,7 +58,7 @@ const page = async ({ params }) => {
             {/* Section 1 End */}
 
             {/* Section 2 Start */}
-            <div className='bg-white dark:bg-gray-900 py-16'>
+            <div className='bg-white dark:bg-gray-900 py-4'>
                 <div className='container flex flex-col gap-10'>
                     <SingleProduct title={title} content={content}
                         imageUrl={thumbnail}

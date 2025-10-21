@@ -60,7 +60,7 @@ const page = async () => {
                 <div className='container  flex flex-col lg:flex-row gap-16'>
                     <div className='flex flex-col flex-1 gap-6'>
 
-                        <div className='flex flex-col gap-10 mt-12'>
+                        <div className='flex flex-col gap-10'>
                             {products.map((product) => (
                                 <PostCard {...product} key={product.id} />
                             ))}
@@ -75,7 +75,7 @@ const page = async () => {
                         </div>
                     </div> */}
                     <div className="shrink-0 lg:w-[300px] flex flex-col p-5 gap-5 bg-[#F0F0F0]">
-                        <h2 className="h3 text-primary">Training & Events</h2>
+                        <h2 className="h3 text-primary">Jewellery News</h2>
                         <div className='flex flex-col gap-10'>
                             {trainingNews.map(({ id, title, excerpt, date, thumbnail, url }) => (
 

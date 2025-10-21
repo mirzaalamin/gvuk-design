@@ -21,7 +21,7 @@ const Panel = ({ panel }) => {
                         </div>
                     )}
                     {title && (
-                        <h2 className="h3 text-primary">{title}</h2>
+                        <h2 className="h3 text-primary" dangerouslySetInnerHTML={{ __html: title }}></h2>
                     )}
                     <p className="post-description font-light" dangerouslySetInnerHTML={{ __html: content }}></p>
                     <Button primary url={button_url} otherClasses="uppercase text-[13px] font-medim">
