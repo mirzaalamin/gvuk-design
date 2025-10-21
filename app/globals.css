@@ -12,6 +12,10 @@ ul {
     padding: 0px 20px;
 }
 
+.list-items-gap-15 ul li {
+    margin: 15px 0px;
+}
+
 .nav-menu ul {
     list-style: none;
     padding: 0px;

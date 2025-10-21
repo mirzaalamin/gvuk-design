@@ -66,6 +66,7 @@ const page = async ({ params }) => {
                         sheetEditionUrl={sheetEditionUrl}
                         sheetUrl={sheetUrl}
                         right_side_video={right_side_video}
+                        otherClasses="list-items-gap-15"
                     />
 
                 </div>

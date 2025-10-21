@@ -6,7 +6,7 @@ import { pages } from '@/contant/constant'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
-const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl, right_side_video }) => {
+const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, sheetUrl, right_side_video, otherClasses }) => {
     const router = useRouter()
 
     return (
@@ -24,7 +24,7 @@ const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, she
                             className="w-[100px] dark:invert"
                         />
                     )}
-                    <p className="post-description" dangerouslySetInnerHTML={{ __html: content }} ></p>
+                    <p className={`post-description ${otherClasses}`} dangerouslySetInnerHTML={{ __html: content }} ></p>
                     {sheetUrl && (
                         <Button primary url={sheetUrl} otherClasses="bg-[#8C8C8C] text-[13px]">
                             DOWNLOAD DATA SHEET

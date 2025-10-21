@@ -37,7 +37,7 @@ const page = async () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero title="Laser Welders for the Medical Industry" description="Precise laser welding with microdot and presets for ease-of-use on all medical alloys."
                         imgUrl="/assets/images/iWeld-993-Web-Ready-1.png"
