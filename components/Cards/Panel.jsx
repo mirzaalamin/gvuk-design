@@ -37,7 +37,7 @@ const Panel = ({ panel }) => {
                     quality={100}
                     width={100}
                     height={150}
-                    className="w-full h-[300px] object-contain"
+                    className="w-full h-[350px] object-contain"
                     sizes="(max-width: 768px) 100vw, 150px"
                 />
             </div>

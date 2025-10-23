@@ -36,7 +36,7 @@ const page = async () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero title="Fume & Dust Extraction for Tooling & Engineering" description="BOFA International are the market leader in the fume extraction industry. They have gained global recognition for the design and manufacture of their innovative and powerful fume extraction systems, suitable for the Tooling & Engineering industries."
                         imgUrl="/assets/images/bofa-jewellery.png"
@@ -63,7 +63,7 @@ const page = async () => {
 
                         <div className='flex flex-col gap-10 mt-12'>
                             {products.map((product) => (
-                                <PostCard {...product} key={product.id} buttonText="View Product" />
+                                <PostCard {...product} key={product.id} buttonText="View Product" hideLogo />
                             ))}
                         </div>
                     </div>
