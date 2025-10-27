@@ -36,13 +36,14 @@ const page = async () => {
     return (
         <div>
             {/* Section 1 Start */}
-            <div className='primary-gradient dark:bg-gray-800 pt-[100px]'>
+            <div className='primary-gradient dark:bg-gray-800 mt-[85px] lg:mt-[110px] !border-t-2 !border-primary'>
                 <div className="container">
                     <Hero title="Laser Welders for the Industrial Sectors" description="Precise laser welding with microdot and presets for ease-of-use on all medical alloys."
                         imgUrl="/assets/images/iWeld-993-Web-Ready-1.png"
                         titleColor="text-primary"
                         descriptionColor="text-[#444444]"
                         logoUrl="/assets/images/LaserStar_Logo_Red-1200px.png"
+                        otherClasses="!h-[350px]"
                     />
                 </div>
             </div>
@@ -54,7 +55,7 @@ const page = async () => {
                     <div className='flex flex-col flex-1'>
                         <div className='flex flex-col gap-10 mt-12'>
                             {products.map((product) => (
-                                <PostCard {...product} key={product.id} buttonText="View Laser" />
+                                <PostCard {...product} key={product.id} buttonText="View Laser" otherClasses="h-[400px]" />
                             ))}
                         </div>
                     </div>
