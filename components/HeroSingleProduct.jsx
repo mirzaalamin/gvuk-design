@@ -21,7 +21,7 @@ const HeroSingleProduct = ({ title, description, imgUrl, titleColor, description
                         />
                     )}
                     <h2 className={`hero-title ${titleColor} dark:text-primary`}>{title}</h2>
-                    <div className={`body-text font-light ${descriptionColor}`} dangerouslySetInnerHTML={{ __html: description }} ></div>
+                    <div className={`body-text !text-[15px] leading-16 font-light ${descriptionColor}`} dangerouslySetInnerHTML={{ __html: description }} ></div>
                 </div>
             </div>
             {imgUrl && (

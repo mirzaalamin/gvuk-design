@@ -11,7 +11,7 @@ const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, she
 
     return (
 
-        <div className="flex flex-col-reverse lg:flex-row gap-2  py-12">
+        <div className="flex flex-col-reverse lg:flex-row gap-2 py-12">
             <div className="flex flex-1 flex-col gap-5">
                 <div className="flex flex-col gap-5">
                     {logoUrl && (
@@ -49,7 +49,7 @@ const SingleProduct = ({ title, content, imageUrl, logoUrl, sheetEditionUrl, she
                         width={100}
                         height={150}
                         sizes="(max-width: 768px) 100vw, 100px"
-                        className='w-full h-full lg:w-[400px]'
+                        className='w-full h-full max-h-[600px] lg:w-[400px] object-contain'
                     />
                 )}
                 {right_side_video && (

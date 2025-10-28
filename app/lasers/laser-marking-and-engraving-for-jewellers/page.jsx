@@ -33,7 +33,6 @@ const page = async () => {
 
     const products = await getProductsByCategory(57)
 
-    console.log(products)
     return (
         <div>
             {/* Section 1 Start */}
